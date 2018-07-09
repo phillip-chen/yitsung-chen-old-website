@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" lang="en">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+    <title>YI-TSUNG | Projects</title>
+    <link rel="stylesheet" type="text/css" href="css/ProjectsStyles.css">
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="hiddenMenu">
+        <a href="index.html">HOME</a>
+        <hr class="hiddenMenu">
+        <a href="aboutMe.html">ABOUT ME</a>
+        <hr class="hiddenMenu">
+        <a href="Resume.html">RESUME</a>
+        <hr class="hiddenMenu">
+        <a href="Contact.html">CONTACT</a>
+      </div>
+    </div>
+    <div class="contentWrapper">
+      <div id="main">
+        <header>
+          <nav id="navbar">
+            <span class="name" onclick="openNav()">&#9776;&ensp;</span>
+            <div><h1 class="name">PROJECTS</h1></div>
+          </nav>
+          <div>
+            <h2 id="Headline">Projects</h1>
+            <br>
+            <!-- <hr class="contents"> -->
+          </div>
+        </header>
+        <main class="projectSection">
+          <p class="IntroContents">
+            The projects are mostly from open sources
+            done in college or during my free time, capstone projects worked with company's private data won't provide any detail here. Any further questions please
+            <a href="Contact.html" class="email">email</a> me for additional info, thanks!</p>
+          <div class="projectWrapper">
+            <a href="https://drive.google.com/file/d/1uvoF1tGMDuqpJ6zlC7IQU2IH7jAXzTRs/view?usp=sharing" target="_blank" class="bikeAnalysisWrapper">
+              <h3 class="AnalysisTitle">- Exploratory Data Analysis -</h3>
+              <div class="bikeAnalysis"></div>
+              <p class="bikeAnalysisIntro">Basic EDA and Map data visualization to explore the Seattle Cycle Shared Datasets</p></a>
+
+            <a href="https://drive.google.com/file/d/1lRJoiAlzNJR8avNPSS4s5Sgk36vkcucw/view?usp=sharing" target="_blank" class="hrAnalysisWrapper">
+              <h3 class="AnalysisTitle">- Data Mining -<br>( Classification )</h3>
+              <div class="hrAnalysis"></div>
+              <p class="hrAnalysisIntro">Applied Logistic Regression and Decision Tree to predict Employees' Churn Rate</p></a>
+
+            <a href="3rd" target="_blank" class="third_AnalysisWrapper">
+              <h3 class="AnalysisTitle">- Network Analysis -</h3>
+              <div class="third_Analysis" href="https://drive.google.com/file/d/1RROvCcXDIueRW-ZkvCROvME5jp97R6ER/view" target="_blank"></div>
+              <p class="third_AnalysisIntro">Tracked Standard Matrics by Qualitative and Quantitative Analysis to improve The UI/UX Design of a webapp startup</p></a>
+
+            <a href="4th" target="_blank" class="fourth_AnalysisWrapper">
+              <h3 class="AnalysisTitle">- Machine Learning Project -</h3>
+              <div class="fourth_Analysis" href="https://drive.google.com/file/d/1RROvCcXDIueRW-ZkvCROvME5jp97R6ER/view" target="_blank"></div>
+              <p class="fourth_AnalysisIntro">Tracked Standard Matrics by Qualitative and Quantitative Analysis to improve The UI/UX Design of a webapp startup</p></a>
+
+            <a href="5th" target="_blank" class="fifth_AnalysisWrapper">
+              <h3 class="AnalysisTitle">- Text Mining -<br>( Sentiment Analysis )</h3>
+              <div class="fifth_Analysis" href="https://drive.google.com/file/d/1RROvCcXDIueRW-ZkvCROvME5jp97R6ER/view" target="_blank"></div>
+              <p class="fifth_AnalysisIntro">Tracked Standard Matrics by Qualitative and Quantitative Analysis to improve The UI/UX Design of a webapp startup</p></a>
+
+            <a href="https://drive.google.com/file/d/1RROvCcXDIueRW-ZkvCROvME5jp97R6ER/view" target="_blank" class="UXAnalysisWrapper">
+              <h3 class="AnalysisTitle">- Analytics Driven UX Design  -</h3>
+              <div class="UXAnalysis" href="https://drive.google.com/file/d/1RROvCcXDIueRW-ZkvCROvME5jp97R6ER/view" target="_blank"></div>
+              <p class="UXAnalysisIntro">Tracked Standard Matrics by Qualitative and Quantitative Analysis to improve The UI/UX Design of a webapp startup</p></a>
+
+          </div>
+        </main>
+      </div>
+      <div class="footer">
+        <div class="logo">
+            <h3 class="footnote">Let's Get In Touch!</h3>
+          <a href="https://www.linkedin.com/in/yi-tsung-chen-phillip-795815b7/" target="_blank" style="width:44px; height:44px; border-radius:15px; margin-right:80px;">
+            <img src="img/linkedin-logo.jpg" alt="" class="logoPic linkedin">
+          </a>
+          <a href="https://github.com/yitsung95" target="_blank" style="width:53px; height:52px; border-radius:50%; margin-left:47px; margin-right:47px;">
+            <img src="img/github-logo.jpg" alt="" class="logoPic github" >
+          </a>
+          <a href="mailto:phillipchen0208@gmail.com" style="width:49px; height:42px; border-radius:10px; margin-left:80px;">
+            <img src="img/email-logo.png" alt="" class="logoPic email">
+          </a>
+        </div>
+        <div class="copyrights">
+          &copy; 2018 Yi-Tsung Chen All Rights Reserved&nbsp;  |&nbsp;  Design: HTML5/CSS3
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript">
+      /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-70px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+
+        //Off Canvas Menu Functions
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "500px";
+            document.getElementById("main").style.opacity = "0.5";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.opacity = "1";
+        }
+      </script>
+
+  </body>
+</html>

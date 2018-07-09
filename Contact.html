@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" lang="en">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+    <title>YI-TSUNG | Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/contactStyles.css">
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="hiddenMenu">
+        <a href="index.html">HOME</a>
+        <hr class="hiddenMenu">
+        <a href="aboutMe.html">ABOUT ME</a>
+        <hr class="hiddenMenu">
+        <a href="Projects.html">PROJECTS</a>
+        <hr class="hiddenMenu">
+        <a href="Resume.html">RESUME</a>
+      </div>
+    </div>
+    <div class="contentWrapper">
+      <div id="main">
+        <header>
+          <nav id="navbar">
+            <span class="name" onclick="openNav()">&#9776;&ensp;</span>
+            <div><h1 class="name">CONTACT</h1></div>
+          </nav>
+          <div>
+            <h2 id="Headline">CONTACT</h1>
+            <br>
+            <!-- <hr class="contents"> -->
+          </div>
+        </header>
+        <main class="contactCard">
+          <h3 class="title">
+            - Thanks for Browsing Through My Site -<br><br>
+            <span class="instruction">
+              Any additional query please send me a message, <br>
+              or simply via the <a href="#foot" class="linkFoot">contact info</a> below to reach out.<br>
+              Hope you enjoy your day!<br><br><br>
+              <span class="contactPhone">
+                <b>Phone:</b> (+886) 978939149
+              </span>
+              <br>
+              <span class="contactAddress">
+                <b>E-mail:</b> phillipchen0208@gmail.com
+              </span>
+            </span>
+          </h3>
+          <br>
+          <form action="https://formspree.io/phillipchen0208@gmail.com" method="post">
+            <label for="email" class="form email">E-mail<span class="required">*</span>:</label><br>
+            <input type="email" name="email" class="input Mail" required placeholder=" Your email!"><br><br><br>
+            <label for="comment" class="form comment">Message<span class="required">*</span>:</label><br>
+            <textarea name="message" class="input Comment" required placeholder=" Your Message, don't forget to tell me who you are!"></textarea>
+            <br>
+            <br>
+            <br>
+            <p class="additionNotes">*Powered by <a href="https://formspree.io/" target="_blank">Formspree</a></p>
+            <br>
+            <input type="submit" value="SEND" class="submit">
+            &ensp;
+            <input type="reset" value="RESET" class="reset">
+          </form>
+        </main>
+      </div>
+      <div class="footer" id="foot">
+        <div class="logo">
+            <h3 class="footnote">Let's Get In Touch!</h3>
+          <a href="https://www.linkedin.com/in/yi-tsung-chen-phillip-795815b7/" target="_blank" style="width:44px; height:44px; border-radius:15px; margin-right:80px;">
+            <img src="img/linkedin-logo.jpg" alt="" class="logoPic linkedin">
+          </a>
+          <a href="https://github.com/yitsung95" target="_blank" style="width:53px; height:52px; border-radius:50%; margin-left:47px; margin-right:47px;">
+            <img src="img/github-logo.jpg" alt="" class="logoPic github" >
+          </a>
+          <a href="mailto:phillipchen0208@gmail.com" style="width:49px; height:42px; border-radius:10px; margin-left:80px;">
+            <img src="img/email-logo.png" alt="" class="logoPic email">
+          </a>
+        </div>
+        <div class="copyrights">
+          &copy; 2018 Yi-Tsung Chen All Rights Reserved&nbsp;  |&nbsp;  Design: HTML5/CSS3
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript">
+      /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-70px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+
+        //Off Canvas Menu Functions
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "500px";
+            document.getElementById("main").style.opacity = "0.5";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.opacity = "1";
+        }
+    </script>
+
+  </body>
+</html>
