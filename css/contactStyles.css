@@ -8,9 +8,111 @@ body{
     font-family: 'Calibri','Thorndale AMT', sans-serif;
     /* font-family: 'Comic Sans MS', 'Comic Sans', 'cursive'; */
 
-
 }
 
+
+/******************************************************************************/
+/************************* Media Query Section ********************************/
+/******************************************************************************/
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 900px){
+  div.footer{width:1500px;}
+}
+@media screen and (max-width: 850px) {
+  #main {
+    transition: 0.5s;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -180px;
+    margin-left: -350px;
+  }
+}
+@media screen and (min-width: 2600px){
+  #main {
+    transition: 0.5s;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -700px;
+    margin-left: -740px;
+  }
+
+  div.footer{
+    position: absolute;
+    background: grey;
+    opacity: 0.8;
+    top: 1530px;
+    left: 0px;
+    height: 100px;
+  }
+  .footnote{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    padding-bottom: 17px;
+  }
+}
+@media screen and (min-width: 2000px){
+
+  #main {
+    transition: 0.5s;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -500px;
+    margin-left: -740px;
+  }
+}
+@media screen and (min-width: 4600px){
+  #main {
+    transition: 0.5s;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -900px;
+    margin-left: -740px;
+  }
+  .contactCard{
+    padding-bottom: 300px;
+    padding-left:130px;
+    padding-right:130px;
+  }
+  .additionNotes{
+    margin-top: 210px;
+    margin-left: 80px;
+
+  }
+  div.footer{
+    position: absolute;
+    background: grey;
+    opacity: 0.8;
+    top: 2630px;
+    left: 0px;
+    height: 100px;
+  }
+  .footnote{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    padding-bottom: 17px;
+  }
+}
+
+
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+/************************* Media Query Section ********************************/
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
 .sidenav {
     height: 100%;
     width: 0;
@@ -23,15 +125,15 @@ body{
 
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .sidenav a {
     text-align: center;
-    padding: 8px 8px 50px 32px;
+    padding: 8px 8px 50px 25px;
     letter-spacing: 3px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -70,7 +172,6 @@ hr.hiddenMenu{
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #f1f1f1, rgba(0, 0, 0, 0));
 
 }
-
 #main {
   transition: 0.5s;
   position: absolute;
@@ -79,99 +180,6 @@ hr.hiddenMenu{
   margin-top: -330px;
   margin-left: -740px;
 
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-@media screen and (max-width: 900px){
-  div.footer{width:1500px;}
-}
-@media screen and (max-width: 850px) {
-  #main {
-    transition: 0.5s;
-    position: absolute;
-    top:50%;
-    left:50%;
-    margin-top: -180px;
-    margin-left: -350px;
-  }
-}
-
-@media screen and (min-width: 2600px){
-  #main {
-    transition: 0.5s;
-    position: absolute;
-    top:50%;
-    left:50%;
-    margin-top: -700px;
-    margin-left: -740px;
-  }
-
-  div.footer{
-    position: absolute;
-    background: grey;
-    opacity: 0.8;
-    top: 1530px;
-    left: 0px;
-    height: 100px;
-  }
-  .footnote{
-    text-align: center;
-    font-size: 30px;
-    letter-spacing: 1px;
-    color: white;
-    padding-bottom: 17px;
-  }
-}
-@media screen and (min-width: 2000px){
-
-  #main {
-    transition: 0.5s;
-    position: absolute;
-    top:50%;
-    left:50%;
-    margin-top: -500px;
-    margin-left: -740px;
-  }
-}
-
-@media screen and (min-width: 4600px){
-  #main {
-    transition: 0.5s;
-    position: absolute;
-    top:50%;
-    left:50%;
-    margin-top: -900px;
-    margin-left: -740px;
-  }
-  .contactCard{
-    padding-bottom: 300px;
-    padding-left:130px;
-    padding-right:130px;
-  }
-  .additionNotes{
-    margin-top: 210px;
-    margin-left: 80px;
-
-  }
-  div.footer{
-    position: absolute;
-    background: grey;
-    opacity: 0.8;
-    top: 2630px;
-    left: 0px;
-    height: 100px;
-  }
-  .footnote{
-    text-align: center;
-    font-size: 30px;
-    letter-spacing: 1px;
-    color: white;
-    padding-bottom: 17px;
-  }
 }
 
 /*  Navigation Bar Styling*/
@@ -228,7 +236,7 @@ span.name:hover{
 #Headline{
   text-align: center;
   padding: 15px 0 15px 0;
-  margin-bottom: 1px;
+  margin-top: -25px;
   letter-spacing: 1px;
   /* border-style: solid; */
   /* border-width:2px; */
@@ -306,7 +314,7 @@ h3.title{
 
   left: 50%;
   top:50%;
-  top: 185px;
+  top: 160px;
   left: 290px;
   border-radius: 20px;
   text-align: center;
@@ -430,7 +438,7 @@ form{
   position: absolute;
   background: grey;
   opacity: 0.9;
-  top: 1530px;
+  top: 1700px;
   left: 0px;
   bottom: 0;
   width: 100%;
