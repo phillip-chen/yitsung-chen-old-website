@@ -121,6 +121,221 @@ body{
       width: 320px !important;
     }
     .secondPartHeadline{
+      top: 1100px !important;
+      left: 585px !important;
+      width: 320px !important;
+    }
+
+    .IntroMotivation{
+      font-size: 21px !important;
+      top: 1175px !important;
+      left: 585px !important;
+      width: 320px !important;
+    }
+
+    /* Additions Styles - Third Part */
+
+    img.baseball{
+      width: 140px !important;
+      height: 90px !important;
+      top: 2410px !important;
+      left: 595px !important;
+    }
+
+    img.sunset{
+      width: 150px !important;
+      height: 100px !important;
+      top: 2410px !important;
+      left: 755px !important;
+    }
+
+    img.cloudy{
+      width: 160px !important;
+      height: 100px !important;
+      top: 2525px !important;
+      left: 745px !important;
+    }
+
+    img.park{
+      width: 130px !important;
+      height: 90px !important;
+      top: 2520px !important;
+      left: 595px !important;
+    }
+    .thirdPart{
+      width: 320px !important;
+    }
+    .thirdPartHeadline{
+      top: 1950px !important;
+      left: 585px !important;
+      width: 320px !important;
+    }
+    .IntroAdditions{
+      font-size: 21px !important;
+      top: 2050px !important;
+      left: 585px !important;
+      width: 320px !important;
+    }
+    /* Footer Styles */
+    .footer{
+      display: inline;
+      position: absolute;
+      background: grey;
+      opacity: 0.8;
+      top: 2780px !important;
+      left: 0px;
+      bottom: 0;
+      width: 120% !important;
+      padding-top: 70px;
+      padding-bottom: 200px;
+    }
+    .logo{
+      width: 100%;
+      height: 80px;
+      position: absolute;
+      top: 10px;
+      opacity: 0.8;
+      margin-top: 0px;
+      margin-bottom: 40px;
+      /* border-style: solid; */
+    }
+    .footnote{
+      text-align: 50%;
+      padding-right: 70px !important;
+      font-size: 26px !important;
+      /* border-style: solid; */
+    }
+    .logoPic.linkedin{
+      width: 40px !important;
+      height: 40px !important;
+      margin-left:10px !important;
+      border-radius: 10px;
+    }
+    .logoPic.github{
+      width: 45px !important;
+      height: 45px !important;
+      margin-left: -70px !important;
+    }
+    .logoPic.email{
+      width: 44px !important;
+      height: 39px !important;
+      margin-left: -160px !important;
+    }
+    .copyrights{
+      width: 75% !important;
+    }
+}
+
+@media only screen and (max-width:730px) and (orientation: Landscape) {
+    .sidenav {
+        height: 100% !important;
+        margin-bottom: 30px !important;
+        max-width: 100% !important;
+    }
+    .sidenav a {
+        text-align: center;
+        padding: 0px 0px 0px 60px !important;
+        margin-bottom: 60px;
+        /* border-style: solid; */
+    }
+    .sidenav a:hover {
+        color: #f1f1f1 !important;
+    }
+    div.hiddenMenu a{
+      margin-top: -5px !important;
+    }
+    hr.hiddenMenu{
+      margin-bottom: 53px !important;
+      margin-left: 7px;
+      margin-top: 0px !important;
+    }
+
+    /*  Navigation Bar Styling*/
+
+    #navbar{
+      height: 50px !important;
+    }
+    span.name{
+      margin-top: 6px !important;
+      margin-left: 12px !important;
+      cursor: pointer;
+    }
+    .name{
+      font-size: 24px !important;
+      margin-top: 8px !important;
+      margin-left: 8px !important;
+      margin-bottom: 0px !important;
+  }
+    /* About Me Contents Styling-Header */
+
+    #Headline{
+      top: 65px !important;
+      left: 600px !important;
+      font-size: 40px !important;
+    }
+
+    hr.contents{
+      width: 400px !important;
+      left: 542px !important;
+    }
+
+    /* Background Styles - First Part */
+
+    img.personalPic{
+      top: 215px !important;
+      left: 650px !important;
+      width: 180px !important;
+      height: 185px !important;
+      border-radius: 50% !important;
+    }
+
+    .firstPartHeadline{
+      top: 420px !important;
+      left: 585px !important;
+      width: 320px !important;
+    }
+
+    .IntroBackground{
+      font-size: 21px !important;
+      top: 510px !important;
+      left: 585px !important;
+      width: 320px !important;
+    }
+    .firstPart{
+      width: 320px !important;
+    }
+
+
+    /* Motivation Styles - Second Part */
+
+    img.udacity{
+      width: 140px !important;
+      height: 140px !important;
+      top: 1750px !important;
+      left: 575px !important;
+      transform: rotate(-9deg) !important;
+    }
+
+    img.freecodecamp{
+      width: 90px !important;
+      height: 90px !important;
+      top: 1650px !important;
+      left: 705px !important;
+      transform: rotate(6deg) !important;
+    }
+
+    img.lynda{
+      width: 110px !important;
+      height: 110px !important;
+      top: 1790px !important;
+      left: 765px !important;
+      transform: rotate(10deg);
+    }
+
+    .secondPart{
+      width: 320px !important;
+    }
+    .secondPartHeadline{
       top: 1080px !important;
       left: 585px !important;
       width: 320px !important;
@@ -228,7 +443,7 @@ body{
 
 /* SmartPhone Version Landscape*/
 
-@media (max-width:860px) and (max-height:480px){
+@media (max-width:860px) and (min-width:730px) and (max-height:480px){
   sidenav {
       height: 100% !important;
       margin-bottom: 30px !important;
