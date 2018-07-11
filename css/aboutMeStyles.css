@@ -681,7 +681,7 @@ body{
 
 /* IPad Pro */
 
-@media (min-width:768px) and (min-height:1024px){
+@media (min-width:768px) and (min-height:999px){
   .sidenav {
       height: 100% !important;
       margin-bottom: 30px !important;
