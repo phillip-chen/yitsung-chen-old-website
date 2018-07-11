@@ -13,8 +13,8 @@ body{
 /* Smart phone Size */
 @media only screen and (min-width:360px) and (orientation: portrait) {
     body{
-        max-height: 200% !important;
-        background: url("../img/path.png") repeat center top fixed;
+        max-height: 400% !important;
+        background: url("../img/path.png") no-repeat center top fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -22,7 +22,7 @@ body{
     }
 
     div.greeting{
-      margin-top: 200px !important;
+      margin-top: 150px !important;
       text-align: center;
       padding-left: 30px;
       padding-right: 0;
