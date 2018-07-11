@@ -216,7 +216,7 @@ span.name:hover{
 
   left: 50%;
   top:50%;
-  top: 140px;
+  top: 150px;
   left: 160px;
   border-radius: 20px;
   text-align: center;
@@ -642,7 +642,7 @@ span.name:hover{
   position: absolute;
   background: grey;
   opacity: 0.8;
-  top: 2500px;
+  top: 2600px;
   left: 0px;
   bottom: 0;
   width: 100%;
