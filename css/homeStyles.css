@@ -14,7 +14,7 @@ body{
 @media only screen and (max-width:490px) and (orientation: portrait) {
     body{
         max-height: 200% !important;
-        background: url("../img/steps3.png") no-repeat 50% 50% fixed;
+        background: url("../img/steps3.png") no-repeat center bottom fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
