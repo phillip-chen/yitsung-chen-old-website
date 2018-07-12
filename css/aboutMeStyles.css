@@ -132,7 +132,7 @@ body{
       width: 300px !important;
     }
     .secondPartHeadline{
-      top: 1090px !important;
+      top: 1070px !important;
       left: 585px !important;
       width: 300px !important;
     }
@@ -229,8 +229,8 @@ body{
       background: url('../img/github-logo.jpg') center top;
       background-size: cover;
       background-repeat: no-repeat;
-      margin-left:50px !important;
-      margin-right:50px !important;
+      margin-left:30px !important;
+      margin-right:30px !important;
       width: 53px;
       height: 52px;
       border-radius: 50%;
@@ -459,7 +459,7 @@ body{
       border-radius:10px;
       width: 45px;
       height: 44px;
-      margin-left: 0px !important;
+      margin-left: -45px !important;
     }
     .logoPic.github{
       background: url('../img/github-logo.jpg') center top;
