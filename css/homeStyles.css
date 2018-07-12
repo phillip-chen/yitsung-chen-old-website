@@ -13,12 +13,12 @@ body{
 /* Smart phone Size */
 @media only screen and (min-width:360px) and (orientation: portrait) {
     body{
-        max-height: 400% !important;
-        background: url("../img/steps2.png") no-repeat center top fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        max-height: 200% !important;
+        background: url("../img/steps2.png") no-repeat 50% fixed;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
     }
 
     div.greeting{
