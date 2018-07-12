@@ -84,7 +84,7 @@ body{
     }
 
     .IntroBackground{
-      font-size: 21px !important;
+      font-size: 15px !important;
       top: 510px !important;
       left: 585px !important;
       width: 320px !important;
@@ -130,7 +130,7 @@ body{
     }
 
     .IntroMotivation{
-      font-size: 21px !important;
+      font-size: 15px !important;
       top: 1175px !important;
       left: 585px !important;
       width: 320px !important;
@@ -174,7 +174,7 @@ body{
       width: 320px !important;
     }
     .IntroAdditions{
-      font-size: 21px !important;
+      font-size: 15px !important;
       top: 2050px !important;
       left: 585px !important;
       width: 320px !important;
