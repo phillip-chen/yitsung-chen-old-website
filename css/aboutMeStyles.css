@@ -459,7 +459,7 @@ body{
       border-radius:10px;
       width: 45px;
       height: 44px;
-      margin-left: -45px !important;
+      margin-left: 0px !important;
     }
     .logoPic.github{
       background: url('../img/github-logo.jpg') center top;
@@ -480,6 +480,8 @@ body{
       width: 54px;
       height: 44px;
       border-radius: 10px;
+      margin-right: 30px !important;
+
     }
 
     .copyrights{
