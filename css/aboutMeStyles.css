@@ -1244,6 +1244,446 @@ body{
 /******************************************************************************/
 /******************************************************************************/
 
+@media screen and (min-width: 1440px) {
+  .sidenav {
+      height: 100%  !important;
+      width: 0  !important;
+      max-width: 90%  !important;
+      position: fixed  !important;
+      z-index: 1  !important;
+      top: 0  !important;
+      left: 0  !important;
+
+      background-color: #121813  !important;
+
+      overflow-x: hidden  !important;
+      transition: .5s  !important;
+      padding-top: 20px  !important;
+  }
+
+  .sidenav a {
+      text-align: center  !important;
+      padding: 8px 0px 50px 20px  !important;
+      letter-spacing: 3px  !important;
+      text-decoration: none  !important;
+      font-size: 22px  !important;
+      color: #818181  !important;
+      display: block  !important;
+      transition: 0.3s  !important;
+      /* border-style: solid  !important; */
+
+      font-family: 'Calibri','Thorndale AMT', sans-serif  !important;
+      font-weight: 650  !important;
+  }
+
+  .sidenav a:hover {
+      color: #f1f1f1  !important;
+  }
+
+  .sidenav .closebtn {
+      position: absolute  !important;
+      top: 0  !important;
+      right: 20px  !important;
+      font-size: 40px  !important;
+  }
+
+  .sidenav div.hiddenMenu{
+    margin-top: 70px  !important;
+    margin-right: 50px  !important;
+  }
+
+  div.hiddenMenu a{
+    margin-top: 50px  !important;
+  }
+
+  hr.hiddenMenu{
+    width: 340px  !important;
+    border: 0  !important;
+    height: 1px  !important;
+    margin-bottom: 45px  !important;
+    margin-top: 0px  !important;
+
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #f1f1f1, rgba(0, 0, 0, 0))  !important;
+
+  }
+  #main {
+    transition: 0.5s  !important;
+    position: absolute  !important;
+    top:50%  !important;
+    left:50%  !important;
+    margin-top: -330px  !important;
+    margin-left: -740px  !important;
+  }
+
+  /*  Navigation Bar Styling*/
+
+  #navbar{
+    background-color: grey  !important;
+    opacity: 0.8  !important;
+    padding: 5px  !important;
+    width: 100%  !important;
+    height: 60px  !important;
+
+    position: fixed  !important;
+    top: 0px  !important;
+    left: 0px  !important;
+    transition: top 0.3s  !important;
+    z-index: 1  !important;
+
+  }
+
+  span.name{
+    display: inline  !important;
+    font-family: 'Calibri','Thorndale AMT', sans-serif  !important;
+    font-size: 26px  !important;
+    color: #fdf9fa  !important;
+
+    float: left  !important;
+
+    margin-top: 10px  !important;
+    margin-left: 28px  !important;
+    margin-bottom: 10px  !important;
+
+    cursor: pointer  !important;
+  }
+
+  span.name:hover{
+    color: lightgrey  !important;
+  }
+
+  .name{
+    display: inline-block  !important;
+    font-size: 25px  !important;
+    color: #fdf9fa  !important;
+    letter-spacing: 1px  !important;
+    font-family: 'Calibri','Thorndale AMT', sans-serif  !important;
+    font-weight: 650  !important;
+
+    margin-top: 14px  !important;
+    margin-left: 15px  !important;
+    margin-bottom: 10px  !important;
+  }
+
+
+  /* About Me Contents Styling-Header */
+
+  #Headline{
+    text-align: center  !important;
+    letter-spacing: 1px  !important;
+    padding-bottom: 0px  !important;
+    margin-bottom: 1px  !important;
+    width:300px  !important;
+    position: absolute  !important;
+    top: 60px  !important;
+    left: 610px  !important;
+    font-size: 35px  !important;
+    font-weight: 600  !important;
+    /* color: #1e61a0  !important; */
+    color: #1e61a0  !important;
+    text-shadow: 1px 3px 2px lightgrey  !important;
+  }
+
+  hr.contents{
+    width: 1000px  !important;
+    border: 0  !important;
+    height: 2px  !important;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), grey, rgba(0, 0, 0, 0))  !important;
+    /* border-style: solid  !important; */
+    position: absolute  !important;
+    top: 50%  !important;
+    top: 140px  !important;
+    left: 50%  !important;
+    left: 240px  !important;
+  }
+
+  /* Background Styles - First Part */
+
+  img.personalPic{
+    position: absolute  !important;
+    top: 300px  !important;
+    left: 395px  !important;
+    opacity: 1  !important;
+    width: 220px  !important;
+    height: 225px  !important;
+    border-radius: 50%  !important;
+    /* border-style: solid  !important; */
+    /* border-width: 4px  !important; */
+    /* border-color: #1e81a0  !important; */
+    box-shadow: 5px 5px 6px grey  !important;
+  }
+
+  .firstPartHeadline{
+    text-align: center  !important;
+    position: absolute  !important;
+    top: 180px  !important;
+    left: 760px  !important;
+    padding-top: 10px  !important;
+
+    width: 420px  !important;
+    height: 50px  !important;
+
+    border-radius: 10px  !important;
+
+    font-size: 30px  !important;
+    letter-spacing: 1px  !important;
+    background-color: #ab233a  !important;
+    color: white  !important;
+
+
+  }
+
+  .IntroBackground{
+    font-size: 19px  !important;
+    font-weight: 300  !important;
+    font-family: 'Calibri','Thorndale AMT', sans-serif  !important;
+
+
+    color: black  !important;
+
+    display: inline-block  !important;
+    position: absolute  !important;
+    text-align: justify  !important;
+    line-height: 32px  !important;
+    top: 280px  !important;
+    left: 762px  !important;
+
+    width: 420px  !important;
+  }
+
+  .firstPart{
+    width: 750px  !important;
+  }
+
+
+  /* Motivation Styles - Second Part */
+
+  img.udacity{
+    width: 160px  !important;
+    height: 160px  !important;
+    position: absolute  !important;
+    top: 865px  !important;
+    left: 820px  !important;
+    transform: rotate(-8deg)  !important;
+  }
+
+  img.freecodecamp{
+    width: 110px  !important;
+    height: 110px  !important;
+    position: absolute  !important;
+    top: 750px  !important;
+    left: 980px  !important;
+    transform: rotate(8deg)  !important;
+  }
+
+  img.lynda{
+    width: 130px  !important;
+    height: 130px  !important;
+    position: absolute  !important;
+    top: 915px  !important;
+    left: 1030px  !important;
+    transform: rotate(10deg)  !important;
+  }
+
+  .secondPart{
+    width: 800px  !important;
+  }
+  .secondPartHeadline{
+    text-align: center  !important;
+    position: absolute  !important;
+    top: 680px  !important;
+    left: 300px  !important;
+    padding-top: 10px  !important;
+
+    width: 420px  !important;
+    height: 50px  !important;
+
+    border-radius: 10px  !important;
+
+    font-size: 30px  !important;
+    letter-spacing: 1px  !important;
+    background-color: #0b70b7  !important;
+    color: white  !important;
+  }
+
+  .IntroMotivation{
+    font-size: 19px  !important;
+    font-weight: 300  !important;
+    font-family: 'Calibri','Thorndale AMT', sans-serif  !important;
+
+
+    color: black  !important;
+
+    display: inline-block  !important;
+    position: absolute  !important;
+    text-align: justify  !important;
+    line-height: 32px  !important;
+    top: 775px  !important;
+    left: 300px  !important;
+
+    width: 420px  !important;
+  }
+
+  /* Additions Styles - Third Part */
+
+  img.baseball{
+    width: 170px  !important;
+    height: 130px  !important;
+    position: absolute  !important;
+    top: 1160px  !important;
+    left: 310px  !important;
+  }
+
+  img.sunset{
+    width: 170px  !important;
+    height: 110px  !important;
+    position: absolute  !important;
+    top: 1160px  !important;
+    left: 505px  !important;
+
+  }
+
+  img.cloudy{
+    width: 170px  !important;
+    height: 130px  !important;
+    position: absolute  !important;
+    top: 1290px  !important;
+    left: 500px  !important;
+
+  }
+
+  img.park{
+    width: 160px  !important;
+    height: 110px  !important;
+    position: absolute  !important;
+    top: 1310px  !important;
+    left: 320px  !important;
+
+  }
+
+  img.photwork{
+    border-radius: 10px  !important;
+    box-shadow: 4px 5px 3px grey  !important;
+  }
+
+  .thirdPart{
+    width: 800px  !important;
+  }
+
+  .thirdPartHeadline{
+    text-align: center  !important;
+    position: absolute  !important;
+    top: 1130px  !important;
+    left: 760px  !important;
+    padding-top: 10px  !important;
+
+    width: 420px  !important;
+    height: 50px  !important;
+
+    border-radius: 10px  !important;
+
+    font-size: 30px  !important;
+    letter-spacing: 1px  !important;
+    background-color: #106633  !important;
+    color: white  !important;
+  }
+
+  .IntroAdditions{
+    font-size: 19px  !important;
+    font-weight: 300  !important;
+    font-family: 'Calibri','Thorndale AMT', sans-serif  !important;
+
+
+    color: black  !important;
+
+    display: inline-block  !important;
+    position: absolute  !important;
+    text-align: justify  !important;
+    line-height: 32px  !important;
+    top: 1220px  !important;
+    left: 762px  !important;
+
+    width: 420px  !important;
+
+  }
+  a.addition{
+    color: #3684e9  !important;
+  }
+  a.addition:hover{
+    color: #0d3c79  !important;
+  }
+
+
+  /* Footer Styles */
+  .footer{
+    display: inline  !important;
+    position: absolute  !important;
+    background: grey  !important;
+    opacity: 0.8  !important;
+    top: 1720px  !important;
+    left: 0px  !important;
+    bottom: 0  !important;
+    width: 100%  !important;
+    padding-top: 70px  !important;
+    padding-bottom: 200px  !important;
+  }
+  .logo{
+    width: 100%  !important;
+    text-align: center  !important;
+    height: 80px  !important;
+    position: absolute  !important;
+    top: 10px  !important;
+    opacity: 0.8  !important;
+    margin-top: 0px  !important;
+    margin-bottom: 40px  !important;
+    /* border-style: solid  !important; */
+  }
+  .footnote{
+    text-align: center  !important;
+    font-size: 30px  !important;
+    letter-spacing: 1px  !important;
+    color: white  !important;
+    padding-bottom: 17px  !important;
+  }
+  .logoPic.linkedin{
+    background: url('../img/linkedin-logo.jpg') center  !important;
+    background-size: cover  !important;
+    background-repeat: no-repeat  !important;
+    border-radius:10px  !important;
+    width: 45px  !important;
+    height: 44px  !important;
+    margin-right: 80px  !important;
+  }
+  .logoPic.github{
+    background: url('../img/github-logo.jpg') center top  !important;
+    background-size: cover  !important;
+    background-repeat: no-repeat  !important;
+    margin-left:47px  !important;
+    margin-right:47px  !important;
+    width: 53px  !important;
+    height: 52px  !important;
+    border-radius: 50%  !important;
+  }
+  .logoPic.email{
+    background: url('../img/email-logo.png') center  !important;
+    border-radius:13px  !important;
+    margin-left:80px  !important;
+    background-size: cover  !important;
+    background-repeat: no-repeat  !important;
+    width: 54px  !important;
+    height: 44px  !important;
+    border-radius: 10px  !important;
+  }
+
+  a{
+    text-decoration: none  !important;
+    display: inline-block  !important;
+    /* border-style: solid  !important; */
+  }
+  .logoPic:hover{
+    transform: scale(1.2)  !important;
+  }
+  
+}
 
 .sidenav {
     height: 100%;
