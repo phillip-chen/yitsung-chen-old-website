@@ -26,9 +26,9 @@ body{
     }
     hr.hiddenMenu{
       margin-bottom: 53px !important;
-      margin-right: 0px !important;
+      margin-right: 50px !important;
       margin-top: 0px !important;
-      /* display: none; */
+      display: none;
       /* height: 10px!important; */
     }
     .sidenav a:hover {
@@ -71,7 +71,7 @@ body{
 
     hr.contents{
       visibility: hidden !important;
-      width: 400px !important;
+      width: 200px !important;
       left: 542px !important;
     }
 
@@ -88,17 +88,17 @@ body{
     .firstPartHeadline{
       top: 420px !important;
       left: 585px !important;
-      width: 320px !important;
+      width: 300px !important;
     }
 
     .IntroBackground{
       font-size: 17px !important;
       top: 520px !important;
       left: 585px !important;
-      width: 320px !important;
+      width: 300px !important;
     }
     .firstPart{
-      width: 320px !important;
+      width: 300px !important;
     }
 
 
@@ -129,19 +129,19 @@ body{
     }
 
     .secondPart{
-      width: 320px !important;
+      width: 300px !important;
     }
     .secondPartHeadline{
       top: 1090px !important;
       left: 585px !important;
-      width: 320px !important;
+      width: 300px !important;
     }
 
     .IntroMotivation{
       font-size: 15px !important;
       top: 1190px !important;
       left: 585px !important;
-      width: 320px !important;
+      width: 300px !important;
     }
 
     /* Additions Styles - Third Part */
@@ -194,7 +194,7 @@ body{
       top: 2780px !important;
       left: 0px;
       bottom: 0;
-      width: 120% !important;
+      width: 100% !important;
       padding-top: 70px;
       padding-bottom: 200px;
     }
@@ -210,7 +210,7 @@ body{
     }
     .footnote{
       text-align: 50%;
-      padding-right: 70px !important;
+      padding-right: 0px !important;
       font-size: 26px !important;
       /* border-style: solid; */
     }
@@ -222,15 +222,15 @@ body{
       width: 45px;
       height: 44px;
       margin-right: 0px !important;
-      margin-left: -70px !important;
+      margin-left: 0px !important;
 
     }
     .logoPic.github{
       background: url('../img/github-logo.jpg') center top;
       background-size: cover;
       background-repeat: no-repeat;
-      margin-left:60px !important;
-      margin-right:60px !important;
+      margin-left:50px !important;
+      margin-right:50px !important;
       width: 53px;
       height: 52px;
       border-radius: 50%;
@@ -247,8 +247,8 @@ body{
     }
     .copyrights{
       width: 75% !important;
-      margin-left: 15px;
-      font-size: 10px !important;
+      margin-left: 45px;
+      font-size: 8px !important;
     }
 }
 
