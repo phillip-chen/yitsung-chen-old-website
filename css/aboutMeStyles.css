@@ -24,6 +24,13 @@ body{
         margin-left: 45px;
         /* border-style: solid; */
     }
+    hr.hiddenMenu{
+      margin-bottom: 53px !important;
+      margin-right: 0px !important;
+      margin-top: 0px !important;
+      /* display: none; */
+      /* height: 10px!important; */
+    }
     .sidenav a:hover {
         color: #f1f1f1 !important;
     }
@@ -1247,7 +1254,7 @@ body{
 @media screen and (min-width: 1440px) {
   .sidenav {
       height: 100%  !important;
-      width: 0  !important;
+      width: 0;
       max-width: 90%  !important;
       position: fixed  !important;
       z-index: 1  !important;
@@ -1263,13 +1270,16 @@ body{
 
   .sidenav a {
       text-align: center  !important;
-      padding: 8px 0px 50px 20px  !important;
+      padding: 8px 0px 30px 0px  !important;
       letter-spacing: 3px  !important;
       text-decoration: none  !important;
       font-size: 22px  !important;
       color: #818181  !important;
       display: block  !important;
       transition: 0.3s  !important;
+      margin-bottom: 30px;
+      margin-left: 0;
+      margin-top: 0;
       /* border-style: solid  !important; */
 
       font-family: 'Calibri','Thorndale AMT', sans-serif  !important;
@@ -1287,25 +1297,15 @@ body{
       font-size: 40px  !important;
   }
 
-  .sidenav div.hiddenMenu{
-    margin-top: 70px  !important;
-    margin-right: 50px  !important;
-  }
-
-  div.hiddenMenu a{
-    margin-top: 50px  !important;
-  }
-
   hr.hiddenMenu{
-    width: 340px  !important;
-    border: 0  !important;
-    height: 1px  !important;
-    margin-bottom: 45px  !important;
-    margin-top: 0px  !important;
-
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #f1f1f1, rgba(0, 0, 0, 0))  !important;
-
+    width: 340px !important;
+    border: 0 !important;
+    height: 1px !important;
+    margin-left: 45px !important;
+    margin-bottom: 45px !important;
+    margin-top: 0px !important;
   }
+
   #main {
     transition: 0.5s  !important;
     position: absolute  !important;
@@ -1682,7 +1682,7 @@ body{
   .logoPic:hover{
     transform: scale(1.2)  !important;
   }
-  
+
 }
 
 .sidenav {
