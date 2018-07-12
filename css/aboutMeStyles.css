@@ -19,8 +19,9 @@ body{
     }
     .sidenav a {
         text-align: center;
-        padding: 0px 0px 0px 60px !important;
+        padding: 0px 0px 0px 0px !important;
         margin-bottom: 60px;
+        margin-left: 45px;
         /* border-style: solid; */
     }
     .sidenav a:hover {
@@ -31,7 +32,7 @@ body{
     }
     hr.hiddenMenu{
       margin-bottom: 53px !important;
-      margin-left: 7px;
+      margin-left: 40px !important;
       margin-top: 0px !important;
     }
 
@@ -41,13 +42,13 @@ body{
       height: 50px !important;
     }
     span.name{
-      margin-top: 6px !important;
+      margin-top: 7px !important;
       margin-left: 12px !important;
       cursor: pointer;
     }
     .name{
-      font-size: 24px !important;
-      margin-top: 8px !important;
+      font-size: 21px !important;
+      margin-top: 9px !important;
       margin-left: 8px !important;
       margin-bottom: 0px !important;
       /* border-style: solid; */
@@ -70,7 +71,7 @@ body{
     /* Background Styles - First Part */
 
     img.personalPic{
-      top: 215px !important;
+      top: 200px !important;
       left: 650px !important;
       width: 180px !important;
       height: 185px !important;
@@ -84,8 +85,8 @@ body{
     }
 
     .IntroBackground{
-      font-size: 15px !important;
-      top: 510px !important;
+      font-size: 17px !important;
+      top: 520px !important;
       left: 585px !important;
       width: 320px !important;
     }
@@ -124,14 +125,14 @@ body{
       width: 320px !important;
     }
     .secondPartHeadline{
-      top: 1100px !important;
+      top: 1090px !important;
       left: 585px !important;
       width: 320px !important;
     }
 
     .IntroMotivation{
       font-size: 15px !important;
-      top: 1175px !important;
+      top: 1190px !important;
       left: 585px !important;
       width: 320px !important;
     }
@@ -144,21 +145,18 @@ body{
       top: 2410px !important;
       left: 595px !important;
     }
-
     img.sunset{
       width: 150px !important;
       height: 100px !important;
       top: 2410px !important;
       left: 755px !important;
     }
-
     img.cloudy{
       width: 160px !important;
       height: 100px !important;
       top: 2525px !important;
       left: 745px !important;
     }
-
     img.park{
       width: 130px !important;
       height: 90px !important;
@@ -175,10 +173,11 @@ body{
     }
     .IntroAdditions{
       font-size: 15px !important;
-      top: 2050px !important;
+      top: 2070px !important;
       left: 585px !important;
       width: 320px !important;
     }
+
     /* Footer Styles */
     .footer{
       display: inline;
@@ -209,20 +208,35 @@ body{
       /* border-style: solid; */
     }
     .logoPic.linkedin{
-      width: 40px !important;
-      height: 40px !important;
-      margin-left:10px !important;
-      border-radius: 10px;
+      background: url('../img/linkedin-logo.jpg') center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius:10px;
+      width: 45px;
+      height: 44px;
+      margin-right: 0px !important;
+      margin-left: -70px !important;
+
     }
     .logoPic.github{
-      width: 45px !important;
-      height: 45px !important;
-      margin-left: -70px !important;
+      background: url('../img/github-logo.jpg') center top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-left:60px !important;
+      margin-right:60px !important;
+      width: 53px;
+      height: 52px;
+      border-radius: 50%;
     }
     .logoPic.email{
-      width: 44px !important;
-      height: 39px !important;
-      margin-left: -160px !important;
+      background: url('../img/email-logo.png') center;
+      border-radius:13px;
+      margin-left:0px !important;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 54px;
+      height: 44px;
+      border-radius: 10px;
     }
     .copyrights{
       width: 75% !important;
@@ -251,7 +265,7 @@ body{
     }
     hr.hiddenMenu{
       margin-bottom: 53px !important;
-      margin-left: 7px;
+      margin-left: 70px !important;
       margin-top: 0px !important;
     }
 
@@ -261,13 +275,13 @@ body{
       height: 50px !important;
     }
     span.name{
-      margin-top: 6px !important;
+      margin-top: 8px !important;
       margin-left: 12px !important;
       cursor: pointer;
     }
     .name{
-      font-size: 24px !important;
-      margin-top: 8px !important;
+      font-size: 22px !important;
+      margin-top: 10px !important;
       margin-left: 8px !important;
       margin-bottom: 0px !important;
   }
@@ -303,7 +317,7 @@ body{
     }
 
     .IntroBackground{
-      font-size: 20px !important;
+      font-size: 19px !important;
       top: 560px !important;
       left: 585px !important;
       width: 320px !important;
@@ -349,7 +363,7 @@ body{
     }
 
     .IntroMotivation{
-      font-size: 20px !important;
+      font-size: 19px !important;
       top: 1225px !important;
       left: 585px !important;
       width: 320px !important;
@@ -393,12 +407,16 @@ body{
       width: 320px !important;
     }
     .IntroAdditions{
-      font-size: 20px !important;
+      font-size: 19px !important;
       top: 2100px !important;
       left: 585px !important;
       width: 320px !important;
     }
     /* Footer Styles */
+    a{
+      /* border-style: solid; */
+
+    }
     .footer{
       display: inline;
       position: absolute;
@@ -407,7 +425,7 @@ body{
       top: 2780px !important;
       left: 0px;
       bottom: 0;
-      width: 120% !important;
+      width: 100% !important;
       padding-top: 70px;
       padding-bottom: 200px;
     }
@@ -423,36 +441,50 @@ body{
     }
     .footnote{
       text-align: 50%;
-      padding-right: 70px !important;
+      padding-right: 0px !important;
       font-size: 26px !important;
       /* border-style: solid; */
     }
     .logoPic.linkedin{
-      width: 40px !important;
-      height: 40px !important;
-      margin-left:10px !important;
-      border-radius: 10px;
+      background: url('../img/linkedin-logo.jpg') center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius:10px;
+      width: 45px;
+      height: 44px;
+      margin-left: 0px !important;
     }
     .logoPic.github{
-      width: 45px !important;
-      height: 45px !important;
-      margin-left: -70px !important;
+      background: url('../img/github-logo.jpg') center top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-left:47px;
+      margin-right:47px;
+      width: 53px;
+      height: 52px;
+      border-radius: 50%;
     }
     .logoPic.email{
-      width: 44px !important;
-      height: 39px !important;
-      margin-left: -160px !important;
+      background: url('../img/email-logo.png') center;
+      border-radius:13px;
+      margin-left:80px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 54px;
+      height: 44px;
+      border-radius: 10px;
     }
+
     .copyrights{
       font-size: 12px !important;
       width: 75% !important;
-      margin-left: 70px !important;
+      margin-left: 80px !important;
     }
 }
 
 /* SmartPhone Version Landscape*/
 
-/* IPad Pro */
+/* IPad Mini */
 
 @media (min-width:768px) and (min-height:999px){
   .sidenav {
@@ -504,15 +536,15 @@ body{
   }
   /* About Me Contents Styling-Header */
   #Headline{
-    top: -80px !important;
+    top: -100px !important;
     left: 600px !important;
     font-size: 37px !important;
   }
 
   hr.contents{
-    width: 1000px !important;
+    width: 700px !important;
     top: 0px !important;
-    left: 250px !important;
+    left: 380px !important;
   }
 
   /* Background Styles - First Part */
@@ -656,20 +688,33 @@ body{
     font-size: 26px !important;
   }
   .logoPic.linkedin{
-    width: 40px !important;
-    height: 40px !important;
-    margin-left:25px !important;
-    border-radius: 10px;
+    background: url('../img/linkedin-logo.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:10px;
+    width: 45px;
+    height: 44px;
+    margin-right: 80px;
   }
   .logoPic.github{
-    width: 45px !important;
-    height: 45px !important;
-    margin-left: 0px !important;
+    background: url('../img/github-logo.jpg') center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:47px;
+    margin-right:47px;
+    width: 53px;
+    height: 52px;
+    border-radius: 50%;
   }
   .logoPic.email{
-    width: 44px !important;
-    height: 39px !important;
-    margin-left: -50px !important;
+    background: url('../img/email-logo.png') center;
+    border-radius:13px;
+    margin-left:80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 44px;
+    border-radius: 10px;
   }
   a{
     text-decoration: none;
@@ -690,6 +735,506 @@ body{
 }
 
 /* IPad Pro Portrait*/
+@media (min-width:1024px) and (min-height:1350px){
+  .sidenav {
+      height: 100% !important;
+      margin-bottom: 30px !important;
+      max-width: 100% !important;
+  }
+  .sidenav a {
+    font-size: 32px !important;
+      text-align: center;
+      padding: 0px 0px 0px 0px !important;
+      margin: 20px 0 80px 60px;
+      /* border-style: solid !important; */
+  }
+  .sidenav a:hover {
+      color: #f1f1f1 !important;
+  }
+  div.hiddenMenu a{
+    margin-top: -5px !important;
+  }
+  hr.hiddenMenu{
+    margin-bottom: 70px !important;
+    margin-left: 80px !important;
+    margin-top: 0px !important;
+  }
+  #main {
+    transition: 0.5s;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -200px;
+    margin-left: -740px;
+  }
+
+  /*  Navigation Bar Styling*/
+
+  #navbar{
+    height: 50px !important;
+  }
+  span.name{
+    margin-top: 6px !important;
+    margin-left: 12px !important;
+    cursor: pointer;
+  }
+  .name{
+    font-size: 24px !important;
+    margin-top: 8px !important;
+    margin-left: 8px !important;
+    margin-bottom: 0px !important;
+  }
+  /* About Me Contents Styling-Header */
+  #Headline{
+    top: -250px !important;
+    left: 600px !important;
+    font-size: 37px !important;
+  }
+
+  hr.contents{
+    width: 900px !important;
+    top: -150px !important;
+    left: 300px !important;
+  }
+
+  /* Background Styles - First Part */
+
+  img.personalPic{
+    top: 70px !important;
+    left: 400px !important;
+    width: 250px !important;
+    height: 250px !important;
+    border-radius: 50% !important;
+  }
+
+  .firstPartHeadline{
+    top: -100px !important;
+    left: 760px !important;
+    width: 400px !important;
+  }
+
+  .IntroBackground{
+    font-size: 22px !important;
+    top: -15px !important;
+    left: 760px !important;
+    width: 400px !important;
+  }
+  .firstPart{
+    width: 400px !important;
+  }
+
+
+  /* Motivation Styles - Second Part */
+
+  img.udacity{
+    width: 140px !important;
+    height: 140px !important;
+    top: 730px !important;
+    left: 790px !important;
+    transform: rotate(-9deg) !important;
+  }
+
+  img.freecodecamp{
+    width: 90px !important;
+    height: 90px !important;
+    top: 580px !important;
+    left: 930px !important;
+    transform: rotate(6deg) !important;
+  }
+
+  img.lynda{
+    width: 110px !important;
+    height: 110px !important;
+    top: 760px !important;
+    left: 1000px !important;
+    transform: rotate(10deg);
+  }
+
+  .secondPart{
+    width: 400px !important;
+  }
+  .secondPartHeadline{
+    top: 500px !important;
+    left: 310px !important;
+    width: 400px !important;
+  }
+
+  .IntroMotivation{
+    font-size: 22px !important;
+    top: 585px !important;
+    left: 310px !important;
+    width: 400px !important;
+  }
+
+  /* Additions Styles - Third Part */
+
+  img.baseball{
+    width: 140px !important;
+    height: 90px !important;
+    top: 1130px !important;
+    left: 320px !important;
+  }
+
+  img.sunset{
+    width: 150px !important;
+    height: 100px !important;
+    top: 1260px !important;
+    left: 500px !important;
+  }
+
+  img.cloudy{
+    width: 160px !important;
+    height: 100px !important;
+    top: 1130px !important;
+    left: 500px !important;
+  }
+
+  img.park{
+    width: 130px !important;
+    height: 90px !important;
+    top: 1260px !important;
+    left:320px !important;
+  }
+  .thirdPart{
+    width: 400px !important;
+  }
+  .thirdPartHeadline{
+    top: 1000px !important;
+    left: 760px !important;
+    width: 400px !important;
+  }
+  .IntroAdditions{
+    font-size: 22px !important;
+    top: 1100px !important;
+    left: 760px !important;
+    width: 400px !important;
+  }
+  /* Footer Styles */
+  .footer{
+    display: inline;
+    position: absolute;
+    background: grey;
+    opacity: 0.8;
+    top: 2090px !important;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 200px;
+  }
+  .logo{
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    opacity: 0.8;
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+  }
+  .footnote{
+    text-align: center;
+    font-size: 26px !important;
+  }
+  .logoPic.linkedin{
+    background: url('../img/linkedin-logo.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:10px;
+    width: 45px;
+    height: 44px;
+    margin-right: 80px;
+  }
+  .logoPic.github{
+    background: url('../img/github-logo.jpg') center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:47px;
+    margin-right:47px;
+    width: 53px;
+    height: 52px;
+    border-radius: 50%;
+  }
+  .logoPic.email{
+    background: url('../img/email-logo.png') center;
+    border-radius:13px;
+    margin-left:80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 44px;
+    border-radius: 10px;
+  }
+  a{
+    text-decoration: none;
+    display: inline-block;
+  }
+  .logoPic:hover{
+    transform: scale(1.2);
+  }
+  .copyrights{
+    /* border-style: solid; */
+    text-align: center;
+    position: absolute;
+    left: 130px;
+    bottom: 20px;
+    color: rgba(255,255,255,70%);
+    width: 75% !important;
+  }
+}
+/* IPad Pro Landscape*/
+@media (min-width:1350px) and (orientation:Landscape){
+  .sidenav {
+      height: 100% !important;
+      margin-bottom: 30px !important;
+      max-width: 100% !important;
+  }
+  .sidenav a {
+    font-size: 32px !important;
+      text-align: center;
+      padding: 0px 0px 0px 0px !important;
+      margin: 20px 0 80px 60px;
+      /* border-style: solid !important; */
+  }
+  .sidenav a:hover {
+      color: #f1f1f1 !important;
+  }
+  div.hiddenMenu a{
+    margin-top: -5px !important;
+  }
+  hr.hiddenMenu{
+    margin-bottom: 70px !important;
+    margin-left: 80px !important;
+    margin-top: 0px !important;
+  }
+  #main {
+    transition: 0.5s;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -200px;
+    margin-left: -740px;
+  }
+
+  /*  Navigation Bar Styling*/
+
+  #navbar{
+    height: 50px !important;
+  }
+  span.name{
+    margin-top: 6px !important;
+    margin-left: 12px !important;
+    cursor: pointer;
+  }
+  .name{
+    font-size: 24px !important;
+    margin-top: 8px !important;
+    margin-left: 8px !important;
+    margin-bottom: 0px !important;
+  }
+  /* About Me Contents Styling-Header */
+  #Headline{
+    top: -100px !important;
+    left: 600px !important;
+    font-size: 37px !important;
+  }
+
+  hr.contents{
+    width: 900px !important;
+    top: 0px !important;
+    left: 300px !important;
+  }
+
+  /* Background Styles - First Part */
+
+  img.personalPic{
+    top: 120px !important;
+    left: 400px !important;
+    width: 250px !important;
+    height: 250px !important;
+    border-radius: 50% !important;
+  }
+
+  .firstPartHeadline{
+    top: 50px !important;
+    left: 760px !important;
+    width: 500px !important;
+  }
+
+  .IntroBackground{
+    font-size: 22px !important;
+    top: 135px !important;
+    left: 760px !important;
+    width: 500px !important;
+  }
+  .firstPart{
+    width: 400px !important;
+  }
+
+
+  /* Motivation Styles - Second Part */
+
+  img.udacity{
+    width: 140px !important;
+    height: 140px !important;
+    top: 730px !important;
+    left: 830px !important;
+    transform: rotate(-9deg) !important;
+  }
+
+  img.freecodecamp{
+    width: 90px !important;
+    height: 90px !important;
+    top: 580px !important;
+    left: 970px !important;
+    transform: rotate(6deg) !important;
+  }
+
+  img.lynda{
+    width: 110px !important;
+    height: 110px !important;
+    top: 760px !important;
+    left: 1040px !important;
+    transform: rotate(10deg);
+  }
+
+  .secondPart{
+    width: 400px !important;
+  }
+  .secondPartHeadline{
+    top: 550px !important;
+    left: 210px !important;
+    width: 500px !important;
+  }
+
+  .IntroMotivation{
+    font-size: 22px !important;
+    top: 640px !important;
+    left: 210px !important;
+    width: 500px !important;
+  }
+
+  /* Additions Styles - Third Part */
+
+  img.baseball{
+    width: 140px !important;
+    height: 90px !important;
+    top: 1130px !important;
+    left: 250px !important;
+  }
+
+  img.sunset{
+    width: 150px !important;
+    height: 100px !important;
+    top: 1280px !important;
+    left: 450px !important;
+  }
+
+  img.cloudy{
+    width: 160px !important;
+    height: 100px !important;
+    top: 1130px !important;
+    left: 450px !important;
+  }
+
+  img.park{
+    width: 130px !important;
+    height: 90px !important;
+    top: 1280px !important;
+    left: 250px !important;
+  }
+  .thirdPart{
+    width: 500px !important;
+  }
+  .thirdPartHeadline{
+    top: 1080px !important;
+    left: 760px !important;
+    width: 500px !important;
+  }
+  .IntroAdditions{
+    font-size: 22px !important;
+    top: 1180px !important;
+    left: 760px !important;
+    width: 500px !important;
+  }
+  /* Footer Styles */
+  .footer{
+    display: inline;
+    position: absolute;
+    background: grey;
+    opacity: 0.8;
+    top: 1990px !important;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 200px;
+  }
+  .logo{
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    opacity: 0.8;
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+  }
+  .footnote{
+    text-align: center;
+    font-size: 26px !important;
+  }
+  .logoPic.linkedin{
+    background: url('../img/linkedin-logo.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:10px;
+    width: 45px;
+    height: 44px;
+    margin-right: 80px;
+  }
+  .logoPic.github{
+    background: url('../img/github-logo.jpg') center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:47px;
+    margin-right:47px;
+    width: 53px;
+    height: 52px;
+    border-radius: 50%;
+  }
+  .logoPic.email{
+    background: url('../img/email-logo.png') center;
+    border-radius:13px;
+    margin-left:80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 44px;
+    border-radius: 10px;
+  }
+  a{
+    text-decoration: none;
+    display: inline-block;
+  }
+  .logoPic:hover{
+    transform: scale(1.2);
+  }
+  .copyrights{
+    /* border-style: solid; */
+    text-align: center;
+    position: absolute;
+    left: 170px;
+    bottom: 20px;
+    color: rgba(255,255,255,70%);
+    width: 75% !important;
+  }
+}
+
+
+
 
 /******************************************************************************/
 /******************************************************************************/
@@ -829,9 +1374,8 @@ span.name:hover{
   margin-bottom: 1px;
   width:300px;
   position: absolute;
-  top: 85px;
+  top: 60px;
   left: 610px;
-
   font-size: 35px;
   font-weight: 600;
   /* color: #1e61a0; */
@@ -844,10 +1388,10 @@ hr.contents{
   border: 0;
   height: 2px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), grey, rgba(0, 0, 0, 0));
-
+  /* border-style: solid; */
   position: absolute;
   top: 50%;
-  top: 160px;
+  top: 140px;
   left: 50%;
   left: 240px;
 }
@@ -856,7 +1400,7 @@ hr.contents{
 
 img.personalPic{
   position: absolute;
-  top: 320px;
+  top: 300px;
   left: 395px;
   opacity: 1;
   width: 220px;
@@ -871,7 +1415,7 @@ img.personalPic{
 .firstPartHeadline{
   text-align: center;
   position: absolute;
-  top: 210px;
+  top: 180px;
   left: 760px;
   padding-top: 10px;
 
@@ -900,7 +1444,7 @@ img.personalPic{
   position: absolute;
   text-align: justify;
   line-height: 32px;
-  top: 300px;
+  top: 280px;
   left: 762px;
 
   width: 420px;
@@ -946,8 +1490,8 @@ img.lynda{
 .secondPartHeadline{
   text-align: center;
   position: absolute;
-  top: 695px;
-  left: 312px;
+  top: 680px;
+  left: 300px;
   padding-top: 10px;
 
   width: 420px;
@@ -973,8 +1517,8 @@ img.lynda{
   position: absolute;
   text-align: justify;
   line-height: 32px;
-  top: 785px;
-  left: 315px;
+  top: 775px;
+  left: 300px;
 
   width: 420px;
 }
@@ -1075,7 +1619,7 @@ a.addition:hover{
   position: absolute;
   background: grey;
   opacity: 0.8;
-  top: 1620px;
+  top: 1720px;
   left: 0px;
   bottom: 0;
   width: 100%;
@@ -1091,7 +1635,7 @@ a.addition:hover{
   opacity: 0.8;
   margin-top: 0px;
   margin-bottom: 40px;
-
+  /* border-style: solid; */
 }
 .footnote{
   text-align: center;
@@ -1101,24 +1645,39 @@ a.addition:hover{
   padding-bottom: 17px;
 }
 .logoPic.linkedin{
-  width: 44px;
+  background: url('../img/linkedin-logo.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius:10px;
+  width: 45px;
   height: 44px;
   margin-right: 80px;
-  border-radius: 10px;
 }
 .logoPic.github{
+  background: url('../img/github-logo.jpg') center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left:47px;
+  margin-right:47px;
   width: 53px;
   height: 52px;
   border-radius: 50%;
 }
 .logoPic.email{
-  width: 49px;
-  height: 42px;
+  background: url('../img/email-logo.png') center;
+  border-radius:13px;
+  margin-left:80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 44px;
   border-radius: 10px;
 }
+
 a{
   text-decoration: none;
   display: inline-block;
+  /* border-style: solid; */
 }
 .logoPic:hover{
   transform: scale(1.2);
@@ -1135,253 +1694,253 @@ a{
 
 @media only screen and (min-width: 1920px) {
   #Headline{
-    text-align: center;
-    letter-spacing: 1px;
-    padding-bottom: 0px;
-    margin-bottom: 1px;
-    width:300px;
-    position: absolute;
-    top: -30px;
-    left: 610px;
+    text-align: center !important;
+    letter-spacing: 1px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 1px !important;
+    width:300px !important;
+    position: absolute !important;
+    top: -30px !important;
+    left: 610px !important;
 
-    font-size: 50px;
-    font-weight: 600;
-    /* color: #1e61a0; */
-    color: #1e61a0;
-    text-shadow: 1px 3px 2px lightgrey;
+    font-size: 50px !important;
+    font-weight: 600 !important;
+    /* color: #1e61a0 !important; */
+    color: #1e61a0 !important;
+    text-shadow: 1px 3px 2px lightgrey !important;
   }
 
   hr.contents{
-    width: 1000px;
-    border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), grey, rgba(0, 0, 0, 0));
+    width: 1400px !important;
+    border: 0 !important;
+    height: 2px !important;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), grey, rgba(0, 0, 0, 0)) !important;
 
-    position: absolute;
-    top: 50%;
-    top: 75px;
-    left: 50%;
-    left: 240px;
+    position: absolute !important;
+    top: 50% !important;
+    top: 90px !important;
+    left: 50% !important;
+    left: 90px !important;
   }
 
   /* Background Styles - First Part */
 
   img.personalPic{
-    position: absolute;
-    top: 320px;
-    left: 285px;
-    opacity: 1;
-    width: 320px;
-    height: 315px;
-    border-radius: 50%;
-    /* border-style: solid; */
-    /* border-width: 4px; */
-    /* border-color: #1e81a0; */
-    box-shadow: 5px 5px 6px grey;
+    position: absolute !important;
+    top: 320px !important ;
+    left: 175px !important;
+    opacity: 1 !important;
+    width: 370px !important;
+    height: 365px !important;
+    border-radius: 50% !important;
+    /* border-style: solid !important; */
+    /* border-width: 4px !important; */
+    /* border-color: #1e81a0 !important; */
+    box-shadow: 5px 5px 6px grey !important;
   }
 
   .firstPartHeadline{
-    text-align: center;
-    position: absolute;
-    top: 150px;
-    left: 760px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    text-align: center !important;
+    position: absolute!important;
+    top: 170px !important ;
+    left: 800px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 
-    width: 500px;
-    height: 50px;
+    width: 700px !important;
+    height: 50px !important;
 
-    border-radius: 10px;
+    border-radius: 10px !important;
 
-    font-size: 40px;
-    letter-spacing: 1px;
-    background-color: #ab233a;
-    color: white;
+    font-size: 40px !important;
+    letter-spacing: 1px !important;
+    background-color: #ab233a !important;
+    color: white !important;
 
 
   }
 
   .IntroBackground{
-    font-size: 27px;
-    font-weight: 300;
-    font-family: 'Calibri','Thorndale AMT', sans-serif;
+    font-size: 27px !important;
+    font-weight: 300 !important;
+    font-family: 'Calibri','Thorndale AMT', sans-serif !important;
 
 
-    color: black;
+    color: black !important;
 
-    display: inline-block;
-    position: absolute;
-    text-align: justify;
-    line-height: 38px;
-    top: 270px;
-    left: 762px;
-
-    width: 500px;
+    display: inline-block !important;
+    position: absolute !important;
+    text-align: justify !important;
+    line-height: 38px !important;
+    top: 270px!important ;
+    left: 802px!important ;
+    width: 700px !important;
+    line-height: 60px !important;
   }
 
   .firstPart{
-    width: 750px;
+    width: 750px !important;
   }
 
 
   /* Motivation Styles - Second Part */
 
   img.udacity{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 1085px;
-    left: 820px;
-    transform: rotate(-8deg);
+    width: 200px !important ;
+    height: 200px !important ;
+    position: absolute !important ;
+    top: 1130px !important ;
+    left: 920px !important;
+    transform: rotate(-8deg) !important ;
   }
 
   img.freecodecamp{
-    width: 140px;
-    height: 140px;
-    position: absolute;
-    top: 890px;
-    left: 980px;
-    transform: rotate(8deg);
+    width: 140px !important;
+    height: 140px !important;
+    position: absolute !important;
+    top: 905px !important;
+    left: 1130px !important;
+    transform: rotate(8deg) !important;
   }
 
   img.lynda{
-    width: 170px;
-    height: 170px;
-    position: absolute;
-    top: 1105px;
-    left: 1080px;
-    transform: rotate(10deg);
+    width: 170px !important;
+    height: 170px !important;
+    position: absolute !important;
+    top: 1150px !important;
+    left: 1250px !important;
+    transform: rotate(10deg) !important;
   }
 
   .secondPart{
-    width: 800px;
+    width: 800px !important;
   }
   .secondPartHeadline{
-    text-align: center;
-    position: absolute;
-    top: 800px;
-    left: 225px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    text-align: center !important;
+    position: absolute !important;
+    top: 800px !important;
+    left: 5px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 
 
-    width: 500px;
-    height: 50px;
+    width: 700px !important;
+    height: 50px !important;
 
-    border-radius: 10px;
+    border-radius: 10px !important;
 
-    font-size: 40px;
-    letter-spacing: 1px;
-    background-color: #0b70b7;
-    color: white;
+    font-size: 40px !important;
+    letter-spacing: 1px !important;
+    background-color: #0b70b7 !important;
+    color: white !important;
   }
 
   .IntroMotivation{
-    font-size: 27px;
-    font-weight: 300;
-    font-family: 'Calibri','Thorndale AMT', sans-serif;
+    font-size: 27px !important;
+    font-weight: 300 !important;
+    font-family: 'Calibri','Thorndale AMT', sans-serif !important;
 
 
-    color: black;
+    color: black !important;
 
-    display: inline-block;
-    position: absolute;
-    text-align: justify;
-    line-height: 38px;
-    top: 900px;
-    left: 225px;
-
-    width: 500px;
+    display: inline-block !important;
+    position: absolute !important;
+    text-align: justify !important;
+    line-height: 38px !important;
+    top: 900px !important;
+    left: 5px !important;
+    line-height: 60px !important;
+    width: 700px !important;
   }
 
   /* Additions Styles - Third Part */
 
   img.baseball{
-    width: 200px;
-    height: 150px;
-    position: absolute;
-    top: 1450px;
-    left: 260px;
+    width: 200px !important;
+    height: 150px !important;
+    position: absolute !important;
+    top: 1500px !important;
+    left: 85px !important;
   }
 
   img.sunset{
-    width: 200px;
-    height: 130px;
-    position: absolute;
-    top: 1450px;
-    left: 485px;
+    width: 200px !important;
+    height: 130px !important;
+    position: absolute !important;
+    top: 1500px !important;
+    left: 350px !important;
 
   }
 
   img.cloudy{
-    width: 210px;
-    height: 150px;
-    position: absolute;
-    top: 1610px;
-    left: 485px;
+    width: 210px !important;
+    height: 150px !important;
+    position: absolute !important;
+    top: 1700px !important;
+    left: 350px !important;
 
   }
 
   img.park{
-    width: 200px;
-    height: 140px;
-    position: absolute;
-    top: 1630px;
-    left: 260px;
+    width: 200px !important;
+    height: 140px !important;
+    position: absolute !important;
+    top: 1700px !important;
+    left: 85px !important;
 
   }
 
   img.photwork{
-    border-radius: 10px;
-    box-shadow: 4px 5px 3px grey;
+    border-radius: 10px !important;
+    box-shadow: 4px 5px 3px grey !important;
   }
 
   .thirdPart{
-    width: 800px;
+    width: 800px !important;
   }
 
   .thirdPartHeadline{
-    text-align: center;
-    position: absolute;
-    top: 1400px;
-    left: 760px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    text-align: center !important;
+    position: absolute !important;
+    top: 1400px !important;
+    left: 800px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 
-    width:500px;
-    height: 50px;
+    width:700px !important;
+    height: 50px !important;
 
-    border-radius: 10px;
+    border-radius: 10px !important;
 
-    font-size: 40px;
-    letter-spacing: 1px;
-    background-color: #106633;
-    color: white;
+    font-size: 40px !important;
+    letter-spacing: 1px !important;
+    background-color: #106633 !important;
+    color: white !important;
   }
 
   .IntroAdditions{
-    font-size: 27px;
-    font-weight: 300;
-    font-family: 'Calibri','Thorndale AMT', sans-serif;
+    font-size: 27px !important;
+    font-weight: 300 !important;
+    font-family: 'Calibri','Thorndale AMT', sans-serif !important;
 
 
-    color: black;
+    color: black !important;
 
-    display: inline-block;
-    position: absolute;
-    text-align: justify;
-    line-height: 40px;
-    top: 1510px;
-    left: 762px;
-
-    width: 500px;
+    display: inline-block !important;
+    position: absolute !important;
+    text-align: justify !important;
+    line-height: 40px !important;
+    top: 1510px !important;
+    left: 800px !important;
+    width: 700px !important;
+    line-height: 60px !important;
 
   }
   a.addition{
-    color: #3684e9;
+    color: #3684e9 !important;
   }
   a.addition:hover{
-    color: #0d3c79;
+    color: #0d3c79 !important;
   }
 
 
@@ -1391,11 +1950,9 @@ a{
     position: absolute;
     background: grey;
     opacity: 0.8;
-    top: 2220px;
-    left: 0px;
-    bottom: 0;
-    width: 100%;
-    padding-top: 70px;
-    padding-bottom: 200px;
+    top: 2250px !important;
+  }
+  .copyrights{
+    left: 240px;
   }
 }
