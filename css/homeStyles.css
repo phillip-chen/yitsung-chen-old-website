@@ -207,8 +207,8 @@ body{
     }
 }
 
-/* IPad Mini Portrait */
-@media only screen and (min-width:1024px) and (orientation: Landscape){
+/* IPad Mini Landscape */
+@media only screen and (min-width:1024px) and (max-width:1366px)and (orientation: Landscape){
   body{
       max-height: 100% !important;
       background: url("../img/path.png") no-repeat 45% 20% fixed;
@@ -233,7 +233,7 @@ body{
     margin-top: -20px;
     font-family: 'Helvetica','Arial', sans-serif;
     font-weight: 800;
-    font-size: 2em !important;
+    font-size: 1.4em !important;
     /* color: rgba(255,255,255,100%); */
     color: orange;
     text-shadow: 1px 2px 2px #000000;
@@ -314,7 +314,7 @@ body{
 }
 
 /* IPad Mini Portrait */
-@media only screen and (min-width:768px) and (orientation: portrait) {
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation: portrait) {
       body{
           max-height: 100% !important;
           background: url("../img/path.png") no-repeat 45% 20% fixed;
@@ -336,10 +336,10 @@ body{
 
       }
       h1.greeting{
-        margin-top: -20px;
+        margin-top: 50px!important;
         font-family: 'Helvetica','Arial', sans-serif;
         font-weight: 800;
-        font-size: 2em !important;
+        font-size: 1.8em !important;
         /* color: rgba(255,255,255,100%); */
         /* border-style: solid; */
         display: inline-block;
@@ -669,7 +669,7 @@ body{
     display: inline;
     font-family: 'Helvetica','Arial', sans-serif;
     float: right;
-    margin-top: 1.4em;
+    margin-top: 1.8em;
     margin-right: 0.5em;
     margin-bottom: 0em;
     font-weight: bold;
@@ -686,7 +686,7 @@ body{
 
     float: left;
 
-    margin-top: 0.5em;
+    margin-top: 0.6em;
     margin-left: 1em;
     margin-bottom: 0.5em;
   }
