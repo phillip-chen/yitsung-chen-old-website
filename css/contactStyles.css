@@ -208,7 +208,7 @@ span.name{
   float: left;
 
   margin-top: 10px;
-  margin-left: 28px;
+  margin-left: 25px;
   margin-bottom: 10px;
 
   cursor: pointer;
@@ -222,7 +222,7 @@ span.name:hover{
   display: inline-block;
   font-size: 25px;
   color: #fdf9fa;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-family: 'Calibri','Thorndale AMT', sans-serif;
   font-weight: 650;
 
@@ -465,19 +465,32 @@ form{
   padding-bottom: 17px;
 }
 .logoPic.linkedin{
-  width: 44px;
+  background: url('../img/linkedin-logo.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius:10px;
+  width: 45px;
   height: 44px;
   margin-right: 80px;
-  border-radius: 10px;
 }
 .logoPic.github{
+  background: url('../img/github-logo.jpg') center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left:47px;
+  margin-right:47px;
   width: 53px;
   height: 52px;
   border-radius: 50%;
 }
 .logoPic.email{
-  width: 49px;
-  height: 42px;
+  background: url('../img/email-logo.png') center;
+  border-radius:13px;
+  margin-left:80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 44px;
   border-radius: 10px;
 }
 

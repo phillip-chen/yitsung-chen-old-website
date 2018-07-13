@@ -1,5 +1,8 @@
 body{
-    background-color: #f4f4f6;
+  /* background: url('../img/steps2.png') 50% 50% fixed; */
+  /* background-size: cover; */
+  background: linear-gradient(to left,#fcfaff,#dcdcdc,#c2c2c2);
+
     /* background-color: #dabeea; */
     font-family: 'Calibri','Thorndale AMT', sans-serif;
 
@@ -164,7 +167,7 @@ span.name{
   float: left;
 
   margin-top: 10px;
-  margin-left: 28px;
+  margin-left: 25px;
   margin-bottom: 10px;
 
   cursor: pointer;
@@ -178,7 +181,7 @@ span.name:hover{
   display: inline-block;
   font-size: 25px;
   color: #fdf9fa;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-family: 'Calibri','Thorndale AMT', sans-serif;
   font-weight: 650;
 
@@ -292,7 +295,7 @@ a.email:hover{
   /* border-style: solid; */
   text-align: center;
   width: 280px;
-  height: 470px;
+  height: 490px;
   border-radius: 15px;
   position: absolute;
   left: 40px;
@@ -316,24 +319,7 @@ a.email:hover{
 
 
 }
-.bikeAnalysisIntro{
-  position:absolute;
-  width: 250px;
-  text-align: justify;
-  line-height: 30px;
 
-  font-size: 15px;
-  font-weight: 400;
-  font-style: italic;
-
-  top: 50%;
-  left: 50%;
-  top: 780px;
-  left: 280px;
-
-  display: none;
-
-}
 .bikeAnalysisWrapper:hover{
   box-shadow: 0px 0px 5px #9b8c91;
 }
@@ -347,14 +333,15 @@ a.email:hover{
 }
 .bikeAnalysisIntro{
   display: none;
-  width: 200px;
+  width: 220px;
   /* border-style: solid; */
   text-align: left;
   color: #333333;
 
   position: absolute;
-  top: 305px;
-  left: 40px;
+  top: 290px;
+  left: 30px;
+  line-height: 25px;
 
   text-align:justify;
 
@@ -370,7 +357,7 @@ a.email:hover{
   /* border-style: solid; */
   text-align: center;
   width: 280px;
-  height: 470px;
+  height: 490px;
   border-radius: 15px;
   position: absolute;
   top: 0px;
@@ -393,24 +380,6 @@ a.email:hover{
   box-shadow: 4px 4px 8px grey;
   border-color: blue;
 
-
-}
-.hrAnalysisIntro{
-  position:absolute;
-  width: 250px;
-  text-align: justify;
-  line-height: 30px;
-
-  font-size: 15px;
-  font-weight: 400;
-  font-style: italic;
-
-  top: 50%;
-  left: 50%;
-  top: 780px;
-  left: 680px;
-
-  display: none;
 
 }
 .hrAnalysisWrapper:hover{
@@ -436,7 +405,7 @@ a.email:hover{
   left: 40px;
 
   text-align:justify;
-
+  line-height: 30px;
   font-family: 'Arial','Thorndale AMT', sans-serif;
   font-style:normal;
   font-size: 13px;
@@ -449,7 +418,7 @@ a.email:hover{
   /* border-style: solid; */
   text-align: center;
   width: 280px;
-  height: 470px;
+  height: 490px;
   border-radius: 15px;
   position: absolute;
   top: 525px;
@@ -532,7 +501,7 @@ a.email:hover{
   /* border-style: solid; */
   text-align: center;
   width: 280px;
-  height: 470px;
+  height: 490px;
   border-radius: 15px;
   position: absolute;
 
@@ -614,7 +583,7 @@ a.email:hover{
   /* border-style: solid; */
   text-align: center;
   width: 280px;
-  height: 470px;
+  height: 490px;
   border-radius: 15px;
   position: absolute;
   top: 525px;
@@ -696,7 +665,7 @@ a.email:hover{
   /* border-style: solid; */
   text-align: center;
   width: 280px;
-  height: 470px;
+  height: 490px;
   border-radius: 15px;
   position: absolute;
   top: 525px;
@@ -807,21 +776,32 @@ a.email:hover{
   padding-bottom: 17px;
 }
 .logoPic.linkedin{
-  width: 44px;
+  background: url('../img/linkedin-logo.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius:10px;
+  width: 45px;
   height: 44px;
   margin-right: 80px;
-  border-radius: 10px;
 }
 .logoPic.github{
-
+  background: url('../img/github-logo.jpg') center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left:47px;
+  margin-right:47px;
   width: 53px;
   height: 52px;
   border-radius: 50%;
 }
 .logoPic.email{
-
-  width: 49px;
-  height: 42px;
+  background: url('../img/email-logo.png') center;
+  border-radius:13px;
+  margin-left:80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 44px;
   border-radius: 10px;
 }
 
