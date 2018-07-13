@@ -208,7 +208,7 @@ body{
 }
 
 /* IPad Mini Landscape */
-@media only screen and (min-width:1024px) and (max-width:1366px)and (orientation: Landscape){
+@media only screen and (min-width:1024px) and (orientation: Landscape){
   body{
       max-height: 100% !important;
       background: url("../img/path.png") no-repeat 45% 20% fixed;
@@ -233,7 +233,7 @@ body{
     margin-top: -20px;
     font-family: 'Helvetica','Arial', sans-serif;
     font-weight: 800;
-    font-size: 1.4em !important;
+    font-size: 1.8em !important;
     /* color: rgba(255,255,255,100%); */
     color: orange;
     text-shadow: 1px 2px 2px #000000;
@@ -251,7 +251,7 @@ body{
     box-shadow: 1.5px 1.5px 2px grey;
   }
   h3.intro{
-    font-size: 1.4em !important;
+    font-size: 1.2em !important;
     font-weight: 550;
     color: #fef374;
     /* font-style: italic; */
@@ -314,7 +314,7 @@ body{
 }
 
 /* IPad Mini Portrait */
-@media only screen and (min-width:768px) and (max-width:1024px) and (orientation: portrait) {
+@media only screen and (min-width:768px) and (orientation: portrait) {
       body{
           max-height: 100% !important;
           background: url("../img/path.png") no-repeat 45% 20% fixed;
@@ -408,7 +408,7 @@ body{
         opacity: 0.8;
         padding: 0.35em;
         width: 100%;
-        height: 4% !important;
+        height: 3.5% !important;
 
         position: fixed;
         top: 0px;
@@ -580,7 +580,7 @@ body{
 
 
 /* 80% - 2048px width Zoom in Styles */
-@media (max-width:2048px) and (min-width:900px){
+@media (min-width:1900px) and (min-width:900px){
   div.greeting{
     margin-top: 250px !important;
     text-align: center;
@@ -594,7 +594,7 @@ body{
     margin-top: -20px;
     font-family: 'Helvetica','Arial', sans-serif;
     font-weight: 800;
-    font-size: 3em !important;
+    font-size: 2.5em !important;
     /* color: rgba(255,255,255,100%); */
     color: orange;
     text-shadow: 1px 2px 2px #000000;
