@@ -580,7 +580,7 @@ body{
 
 
 /* 80% - 2048px width Zoom in Styles */
-@media (max-width:2048px) and (min-width:1706px){
+@media (max-width:2048px) and (min-width:900px){
   div.greeting{
     margin-top: 250px !important;
     text-align: center;
