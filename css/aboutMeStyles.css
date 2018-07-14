@@ -229,8 +229,8 @@ body{
       background: url('../img/github-logo.jpg') center top;
       background-size: cover;
       background-repeat: no-repeat;
-      margin-left:0px !important;
-      margin-right:0px !important;
+      margin-left:40px !important;
+      margin-right:40px !important;
       width: 30px;
       height: 30px;
       border-radius: 50%;
@@ -252,7 +252,7 @@ body{
     }
 }
 
-@media only screen and (max-width:732px) and (orientation: Landscape) {
+@media only screen and (max-width:852px) and (orientation: Landscape) {
     .sidenav {
         height: 100% !important;
         margin-bottom: 30px !important;
@@ -448,7 +448,7 @@ body{
     }
     .footnote{
       text-align: 50%;
-      padding-right: 0px !important;
+      padding-right: 50px !important;
       font-size: 26px !important;
       /* border-style: solid; */
     }
@@ -487,7 +487,7 @@ body{
     .copyrights{
       font-size: 12px !important;
       width: 75% !important;
-      margin-left: 10px !important;
+      margin-left: -50px !important;
     }
 }
 
@@ -1704,7 +1704,7 @@ body{
     transform: scale(1.2)  !important;
   }
   .copyrights{
-    left: 5px !important;
+    left: 0px !important;
   }
 
 }
@@ -2159,7 +2159,7 @@ a{
 
 /* Desktop 1920px width up! */
 
-@media only screen and (min-width: 1700px) and (min-height:940px;){
+@media only screen and (min-width: 1700px) and (min-height:940px){
   #Headline{
     text-align: center !important;
     letter-spacing: 1px !important;
@@ -2440,5 +2440,11 @@ a{
   }
   .copyrights{
     left: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 2000px) and (min-height:1000px){
+  .copyrights{
+    left: 255px !important;
   }
 }
