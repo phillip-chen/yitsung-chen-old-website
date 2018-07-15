@@ -301,7 +301,7 @@ span.name:hover{
 .rlevel{
   /* border-style: solid; */
   background: white;
-  width: 145px;
+  width: 165px;
   height: 10px;
 }
 .sqllevel{
@@ -319,7 +319,7 @@ span.name:hover{
 .saslevel{
   /* border-style: solid; */
   background: white;
-  width: 90px;
+  width: 100px;
   height: 10px;
 }
 .htmllevel{
