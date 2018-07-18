@@ -273,348 +273,6 @@ body{
 
 
 /* IPad Version */
-
-@media screen and (max-width:768px) and (orientation:portrait){
-  /* Resume Contents Styling */
-  #resumeSection{
-    width: 39em !important;
-    height: 215em !important;
-    /* border-style: solid; */
-
-    left: 50%;
-    top:50%;
-    top: 0em !important;
-    left: 26.7em !important;
-  }
-
-  .headerImage{
-    width: 100%;
-    height: 15em !important;
-    background: url("../img/sky.jpg") 50% 28%;
-  }
-  .resumeHeader{
-    padding: .6em 1.8em .8em 1.8em !important;
-    margin: 2em 0 0 0 !important;
-    font-size: 2.5em !important;
-  }
-  .subHeader{
-    top:8.5em !important;
-    left: 7.8em !important;
-    /* border-style: solid;*/
-    font-size: 1.2em !important;
-  }
-  /* Resume Left Part Content Styles */
-
-  /* Left - Profile Section */
-
-  .resumeContent{
-    width: 100%;
-    height: 200em !important;
-  }
-  .leftPart{
-
-    top:15em !important;
-    width: 100% !important;
-    height: 90em !important;
-    border-radius: 0 0 0 0 !important;
-
-  }
-  .leftTitle{
-    /* border-style: solid; */
-    padding-left: 0 !important;
-    text-align: center !important;
-    font-size: 1.6em !important;
-
-  }
-  .hrLeft{
-    border: 0;
-    width: 35em !important;
-    height: 2px;
-    background-color: white;
-    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0)); */
-    /* border-style: solid; */
-    /* border-width: 5px; */
-    margin-right: 5% !important;
-
-  }
-  .profilecontent{
-    color: white;
-    /* font-family: 'Calibri',sans-serif; */
-    font-size: 1em !important;
-    line-height: 35px;
-    width: 80% !important;
-    text-align: justify;
-    letter-spacing: 1px;
-    /* border-style: solid; */
-    margin-left: 3.5% !important;
-    padding: 1em 2em 0 2em !important;
-    display: block !important;
-  }
-
-  /* Left - Skills Section */
-
-  .skillsLayout{
-    /* border-style: solid; */
-    border-color: white;
-    padding: 10px 0px 10px 0;
-    margin-bottom: 60px;
-  }
-  .computerSkill{
-    border-style: solid;
-    font-size: 1.4em !important;
-    margin-top: 0%;
-    padding:2% 0% 2% 0%;
-    letter-spacing: .3em;
-  }
-  .skillLevel{
-    /* border-style: solid; */
-    color: white;
-    text-align: left;
-    padding-left: 15% !important;
-    font-size: 1.2em;
-    font-weight: 600;
-    letter-spacing: .3em;
-  }
-
-  .skillsets{
-    /* border-style: solid; */
-    margin-left: 15% !important;
-    margin-top: 0;
-    width: 80%;
-    list-style-position: inside;
-    list-style-type: circle;
-    color: #fdfefa;
-    text-align: left;
-    line-height: 1.7em;
-    letter-spacing: .2em;
-    font-size: 1em;
-    font-weight: 400;
-
-  }
-
-
-  /* Left - Contact Section */
-  .contactLayout{
-    /* border-style: solid; */
-    color: white;
-    list-style-type: circle;
-    list-style-position: inside;
-    font-size: 16px;
-    line-height: 40px;
-    font-family: 'Calibri',serif,sans-serif;
-    letter-spacing: 2px;
-    text-align: left;
-  }
-
-  .phone{
-    /* border-style: solid; */
-    margin-left: 0px;
-    /* text-align: left; */
-  }
-  .email{
-    /* border-style: solid; */
-    margin-left: 0px;
-    /* text-align: left; */
-  }
-  .linkedin{
-    /* border-style: solid; */
-    margin-left: 0px;
-    color: white;
-    /* text-align: left; */
-  }
-  .linkedin:hover{
-    color: grey;
-  }
-
-  /* Resume Right Part Content Styles */
-
-  .rightPart{
-    position: absolute;
-    top:105em !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 110em !important;
-    background-color: lightgrey;
-    /* border-style: solid; */
-    border-radius: 0 0 20px 20px !important;
-
-  }
-  .rightTitle{
-    /* border-style: solid; */
-    padding-left: 0 !important;
-    text-align: center !important;
-    font-size: 1.6em !important;
-  }
-  .rightTitleSub{
-    color: #424242;
-    text-align: left;
-    letter-spacing: 3px;
-    font-size: .9em !important;
-  }
-  .hrRight{
-    width: 35em !important;
-    margin-right: 5% !important;
-   }
-
-  /* Project Section Styles */
-
-  .projectName{
-    /* border-style: solid; */
-    text-align: left;
-    padding-left: 20px;
-    margin-left: -1% !important;
-    margin-bottom: 10px;
-    font-size: 1em !important;
-    letter-spacing: 2px;
-    color: #424242;
-  }
-  .projectBullets{
-    list-style-position: inside;
-    padding-left: 2em !important;
-    margin-left: -1% !important;
-    text-align: left;
-    /* border-style: solid; */
-    font-weight: 500;
-    font-size: .7em !important;
-    line-height: 30px;
-  }
-  .projectTime1{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 23em !important;
-  }
-  .projectTime2{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 6em !important;
-  }
-  .projectTime3{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 14em !important;
-  }
-
-  /* Experience Section Styles */
-  .jobName{
-    /* border-style: solid; */
-    text-align: left;
-    padding-left: 20px;
-    margin-left: -1% !important;
-    margin-bottom: 10px;
-    font-size: 1em !important;
-    letter-spacing: 2px;
-    color: #424242;
-  }
-  .jobBullets{
-    list-style-position: inside;
-    padding-left: 2em !important;
-    margin-left: -1% !important;
-    text-align: left;
-    /* border-style: solid; */
-    font-weight: 500;
-    font-size: .7em !important;
-    line-height: 30px;
-  }
-  .jobTime1{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 37em !important;
-  }
-  .jobtitle{
-    font-size: .9em !important;
-    margin: 0 0 15px 0;
-    padding-left: 1em !important;
-  }
-  .jobLocation1{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 26.5em !important;
-  }
-
-  .jobTime2{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 27em !important;
-  }
-  .jobLocation2{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 26em !important;
-  }
-
-  /* Education Section Styles */
-
-  .schoolName{
-    /* border-style: solid; */
-    font-size: 1em !important;
-    text-align: left;
-    padding-left: 10px;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-    color: #424242;
-  }
-  .schooltitle{
-    font-size: .8em !important;
-    /* font-style: italic; */
-    font-weight: bold;
-    letter-spacing: 2px;
-    /* border-style: solid; */
-    text-align: left;
-
-    margin: 0 0 15px 0;
-    padding-left: 10px;
-    color: #424242;
-  }
-  .schoolBullets{
-    list-style-position: inside;
-    padding-left: 20px;
-    text-align: left;
-    /* border-style: solid; */
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 30px;
-    padding-left: 2em !important;
-    margin-left: -1% !important;
-    font-size: .7em !important;
-  }
-  .schoolTime1{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 10em !important;
-  }
-  .schoolLocation1{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 12.5em !important;
-  }
-
-  .schoolTime2{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 7em !important;
-  }
-  .schoolLocation2{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 10.5em !important;
-  }
-
-  .schoolTime3{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 12em !important;
-  }
-  .schoolLocation3{
-    /* border-style: solid; */
-    font-size: .5em !important;
-    margin-left: 6em !important;
-  }
-
-  /* Footer Styles */
-  .footer{
-    top: 235em !important;
-  }
-}
 @media screen and (max-width: 1366px) and (orientation: Landscape){
   /* Resume Contents Styling */
   #resumeSection{
@@ -876,417 +534,16 @@ body{
 
 }
 
-
-/* Smartphone size 300*600 */
-@media screen and (max-width:500px) and (orientation: portrait){
-
-  /* Hidden Menu styles */
-  .sidenav{
-    max-width: 100%;
-  }
-  .sidenav a {
-    /* border-style: solid; */
-    padding: 0 !important;
-    margin: 0 0 25% 15% !important;
-
-  }
-  hr.hiddenMenu{
-    display: none;
-  }
-
-  /* Resume Contents Styling */
-  #resumeSection{
-    width: 20em !important;
-    height: 260em !important;
-    /* border-style: solid; */
-    position: absolute;
-    left: 50%;
-    top:50%;
-    top: 7em !important;
-    left: 36.5em !important;
-  }
-
-  .headerImage{
-    width: 100%;
-    height: 12em !important;
-    background: url("../img/sky.jpg") 50% 28%;
-  }
-  .resumeHeader{
-    border-style: solid;
-    padding: .5em 1em .8em 1em!important;
-    margin: 2em 0 0 0 !important;
-    font-size: 1.8em !important;
-    /* box-shadow: 0px 0px 15px black; */
-  }
-  .subHeader{
-    position: absolute;
-    top: 10.7em !important;
-    left: 7em !important;
-    /* border-style: solid; */
-    font-size: .7em !important;
-    padding: 1em 0.5em 1em 0.5em !important;
-  }
-  /* Resume Left Part Content Styles */
-
-  /* Left - Profile Section */
-
-  .resumeContent{
-    width: 100%;
-    height: 248em !important;
-  }
-  .leftPart{
-    position: absolute;
-    border-radius: 0 !important;
-    top: 12em !important;
-    width: 20em !important;
-    height: 81em !important;
-    background-color: #4b4b4b;
-    background-repeat: no-repeat;
-    border-radius: 0 0 0 20px;
-
-  }
-  .leftTitle{
-    font-size: 1.4em;
-    padding-left: 0 !important;
-    margin-top: 50px;
-    /* display: block; */
-    color: white;
-    text-align: center !important;
-
-
-  }
-  .hrLeft{
-    border: 0;
-    width: 17em !important;
-    height: 2px;
-    background-color: white;
-    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0)); */
-    /* border-style: solid; */
-    /* border-width: 5px; */
-    margin-right: 1.5em !important;
-
-  }
-  .profilecontent{
-    font-size: .85em !important;
-    line-height: 2.8em !important;
-    width: 20em !important;
-    margin-left: 1.7em !important;
-    margin-top: 0 !important;
-    padding-left: 0 !important;
-  }
-
-  /* Left - Skills Section */
-
-  .skillsLayout{
-    /* border-style: solid; */
-    border-color: white;
-    padding: 10px 0px 10px 0;
-    margin-bottom: 60px;
-  }
-  .computerSkill{
-    font-size: 1.1em !important;
-  }
-  .skillLevel{
-    /* border-style: solid; */
-    color: white;
-    text-align: left !important;
-    padding-left: 15% !important;
-    font-size: 1.2em;
-    font-weight: 600;
-    letter-spacing: .3em;
-  }
-
-  .skillsets{
-    /* border-style: solid; */
-    margin-left: 12%;
-    margin-top: 0;
-    width: 80%;
-    list-style-position: inside;
-    list-style-type: circle;
-    color: #fdfefa;
-    text-align: left;
-    line-height: 1.7em;
-    letter-spacing: .2em;
-    font-size: .7em !important;
-    font-weight: 400;
-
-  }
-
-  /* Left - Contact Section */
-  .contactLayout{
-    /* border-style: solid; */
-    text-align: left;
-    padding-left: 1.6em;
-  }
-
-  .phone{
-    /* border-style: solid; */
-    margin-left: 0px;
-    font-size: 0.8em;
-    /* text-align: left; */
-  }
-  .email{
-    /* border-style: solid; */
-    font-size: 0.8em;
-    margin-left: 0px;
-    /* text-align: left; */
-  }
-  .linkedin{
-    /* border-style: solid; */
-    font-size: 0.8em;
-    margin-left: 0px;
-    /* text-align: left; */
-  }
-  .linkedin:hover{
-    color: grey;
-  }
-
-  /* Resume Right Part Content Styles */
-
-  .rightPart{
-    position: absolute;
-    top: 93em !important;
-    left: 0 !important;
-    width: 20em !important;
-    height: 167em !important;
-    border-radius: 0 0 20px 20px !important;
-
-  }
-  .rightTitle{
-    /* font-size: 30px; */
-    font-size: 1.4em;
-    letter-spacing: 5px;
-    /* border-style: solid; */
-    margin-top: 50px;
-    /* display: block; */
-    color: #424242;
-    text-align: center !important;
-    padding-left: 0 !important;
-  }
-  .rightTitleSub{
-    display: block;
-    /* border-style: solid; */
-    color: #424242;
-    text-align: center !important;
-    letter-spacing: 3px;
-    font-size: 1em !important;
-  }
-  .hrRight{
-    /* border: 0; */
-    width: 19em !important;
-    height: 2px;
-    /* background-color: #333333; */
-    margin-right: .5em !important;
-    background-color: #555555;
-    border-style: none;
-   }
-
-  /* Project Section Styles */
-
-  .projectName{
-    /* border-style: solid; */
-    text-align: left;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    font-size: 1em !important;
-    padding-left: 0 !important;
-    margin-left: -2em !important;
-  }
-  .projectBullets{
-    list-style-position: inside;
-    padding-left: 0!important;
-    margin-left: -2em !important;
-    text-align: left;
-    /* border-style: solid; */
-    font-weight: 500;
-    font-size: .7em !important;
-    line-height: 30px;
-  }
-  .projectTime1{
-    /* border-style: solid; */
-    font-size: .2em !important;
-    margin-left: 6em !important;
-  }
-  .projectTime2{
-    /* border-style: solid; */
-    font-size: .2em !important;
-    margin-left: 12em !important;
-  }
-  .projectTime3{
-    /* border-style: solid; */
-    font-size: .2em !important;
-    margin-left: 24em !important;
-  }
-
-  /* Experience Section Styles */
-  .jobName{
-    /* border-style: solid; */
-    font-size: 1em !important;
-    width: 110%;
-    text-align: left;
-    padding-left: 0 !important;
-    margin-left: -2em !important;
-  }
-  .jobBullets{
-    list-style-position: inside;
-    margin-left: -4.5em !important;
-    text-align: left;
-    /* border-style: solid; */
-    font-weight: 500;
-    font-size: .2em !important;
-    line-height: 30px;
-  }
-  .jobTime1{
-    /* border-style: solid; */
-    font-size: .2em !important;
-    margin-left: 12em !important;
-  }
-  .jobtitle{
-    font-size: .5em !important;
-    /* border-style: solid; */
-    width: 100%;
-    text-align: left;
-    margin: 0 0 2em -2em !important;
-    padding-left: 0 !important;
-    padding-bottom: 0 !important;
-  }
-  .jobLocation1{
-    /* border-style: solid; */
-    font-size: .3em !important;
-    margin-left: 3.5em !important;
-  }
-  .jobTime2{
-    /* border-style: solid; */
-    font-size: .2em !important;
-    margin-left: 2em !important;
-  }
-  .jobLocation2{
-    /* border-style: solid; */
-    font-size: .3em !important;
-    margin-left: 5em !important;
-  }
-
-  /* Education Section Styles */
-
-  .schoolName{
-    /* border-style: solid; */
-    font-size: 1em !important;
-    text-align: left;
-    padding-left: 10px;
-    margin-left: -2.5em !important;
-    font-size: 20px;
-    letter-spacing: 2px;
-    width: 100%;
-  }
-  .schooltitle{
-    font-size: .6em !important;
-    /* font-style: italic; */
-    font-weight: bold;
-    letter-spacing: 2px;
-    /* border-style: solid; */
-    text-align: left;
-    margin-left: -3em !important;
-    padding-left: 0 !important;
-    color: #424242;
-  }
-  .schoolBullets{
-    list-style-position: inside;
-    padding-left: 0 !important;
-    margin-left: -3em !important;
-    text-align: left;
-    /* border-style: solid; */
-    font-weight: 500;
-    font-size: .5em !important;
-    line-height: 30px;
-  }
-  .schoolTime1{
-    /* border-style: solid; */
-    font-size: .2em !important;
-    margin-left: 0em !important;
-    display: block;
-    padding-top:1.2em !important;
-    padding-bottom:1.2em !important;
-  }
-  .schoolLocation1{
-    font-size: .3em !important;
-    margin-left: 0 !important;
-    margin-top: 2em !important;
-    display: block;
-    /* border-style: solid; */
-  }
-
-  .schoolTime2{
-    /* border-style: solid; */
-    font-size: .2em !important;
-    margin-left: 0em !important;
-    display: block;
-    padding-top:1.2em !important;
-    padding-bottom:1.2em !important;
-
-  }
-  .schoolLocation2{
-    font-size: .3em !important;
-    margin-left: 0 !important;
-    margin-top: 2em !important;
-    display: block;
-    /* border-style: solid; */
-  }
-
-  .schoolTime3{
-    /* border-style: solid; */
-    font-size: .2em !important;
-    margin-left: 0em !important;
-    display: block;
-    padding-top:1.2em !important;
-    padding-bottom:1.2em !important;
-  }
-  .schoolLocation3{
-    font-size: .3em !important;
-    margin-left: 0 !important;
-    margin-top: 2em !important;
-    display: block;
-    /* border-style: solid; */
-  }
-
-  .footer{
-    top: 275em !important;
-  }
-  .logoPic.linkedin{
-    width: 45px;
-    height: 44px;
-  }
-  .logoPic.github{
-    margin-left:0px !important;
-    margin-right:0px !important;
-    width: 53px;
-    height: 52px;
-  }
-  .logoPic.email{
-    background: url('../img/email-logo.png') center;
-    width: 54px;
-    height: 44px;
-  }
-
-  .copyrights{
-    text-align: center;
-    position: absolute;
-    bottom: 10px;
-    color: rgba(255,255,255,70%);
-    width: 100%;
-    font-size: .5em !important;
-  }
-}
-
-@media screen and (max-width:900px) and (orientation: Landscape){
+@media screen and (max-width:768px) and (orientation:portrait){
   /* Resume Contents Styling */
   #resumeSection{
     width: 39em !important;
-    height: 215em !important;
+    height: 245em !important;
     /* border-style: solid; */
 
     left: 50%;
     top:50%;
-    top: 20em !important;
+    top: 0em !important;
     left: 26.7em !important;
   }
 
@@ -1312,13 +569,13 @@ body{
 
   .resumeContent{
     width: 100%;
-    height: 200em !important;
+    height: 230em !important;
   }
   .leftPart{
 
     top:15em !important;
     width: 100% !important;
-    height: 90em !important;
+    height: 120em !important;
     border-radius: 0 0 0 0 !important;
 
   }
@@ -1364,7 +621,7 @@ body{
   }
   .computerSkill{
     border-style: solid;
-    font-size: 1.4em !important;
+    font-size: 1.6em !important;
     margin-top: 0%;
     padding:2% 0% 2% 0%;
     letter-spacing: .3em;
@@ -1373,15 +630,15 @@ body{
     /* border-style: solid; */
     color: white;
     text-align: left;
-    padding-left: 15% !important;
-    font-size: 1.2em;
+    padding-left: 10% !important;
+    font-size: 1.4em !important;
     font-weight: 600;
     letter-spacing: .3em;
   }
 
   .skillsets{
     /* border-style: solid; */
-    margin-left: 15% !important;
+    margin-left: 10% !important;
     margin-top: 0;
     width: 80%;
     list-style-position: inside;
@@ -1390,11 +647,16 @@ body{
     text-align: left;
     line-height: 1.7em;
     letter-spacing: .2em;
-    font-size: 1em;
+    font-size: 1.1em !important;
     font-weight: 400;
-
   }
-
+  .skillBullets{
+    /* border-style: solid; */
+    line-height: 2.5em !important;
+    text-align: left !important;
+    margin-left: 10% !important;
+    font-size: .8em !important;
+  }
 
   /* Left - Contact Section */
   .contactLayout{
@@ -1433,7 +695,7 @@ body{
 
   .rightPart{
     position: absolute;
-    top:105em !important;
+    top:135em !important;
     left: 0 !important;
     width: 100% !important;
     height: 110em !important;
@@ -1474,7 +736,7 @@ body{
   .projectBullets{
     list-style-position: inside;
     padding-left: 2em !important;
-    margin-left: -1% !important;
+    margin-left: -4.5% !important;
     text-align: left;
     /* border-style: solid; */
     font-weight: 500;
@@ -1511,7 +773,7 @@ body{
   .jobBullets{
     list-style-position: inside;
     padding-left: 2em !important;
-    margin-left: -1% !important;
+    margin-left: -4.5% !important;
     text-align: left;
     /* border-style: solid; */
     font-weight: 500;
@@ -1577,7 +839,7 @@ body{
     font-size: 13px;
     line-height: 30px;
     padding-left: 2em !important;
-    margin-left: -1% !important;
+    margin-left: -6.5% !important;
     font-size: .7em !important;
   }
   .schoolTime1{
@@ -1615,7 +877,724 @@ body{
 
   /* Footer Styles */
   .footer{
-    top: 235em !important;
+    top: 270em !important;
+  }
+}
+
+
+/* Smartphone size 300*600 */
+@media screen and (max-width:500px) and (orientation: portrait){
+
+  /* Hidden Menu styles */
+  .sidenav{
+    max-width: 100%;
+  }
+  .sidenav a {
+    /* border-style: solid; */
+    padding: 0 !important;
+    margin: 0 0 25% 15% !important;
+
+  }
+  hr.hiddenMenu{
+    display: none;
+  }
+
+  /* Resume Contents Styling */
+  #resumeSection{
+    width: 21em !important;
+    height: 300em !important;
+    /* border-style: solid; */
+    position: absolute;
+    left: 50%;
+    top:50%;
+    top: 18em !important;
+    left: 35.8em !important;
+  }
+
+  .headerImage{
+    width: 100%;
+    height: 12em !important;
+    background: url("../img/sky.jpg") 50% 28%;
+  }
+  .resumeHeader{
+    border-style: solid;
+    padding: .5em 1em .8em 1em!important;
+    margin: 2em 0 0 0 !important;
+    font-size: 1.8em !important;
+    /* box-shadow: 0px 0px 15px black; */
+  }
+  .subHeader{
+    position: absolute;
+    top: 10.7em !important;
+    left: 7.6em !important;
+    /* border-style: solid; */
+    font-size: .7em !important;
+    padding: 1em 0.5em 1em 0.5em !important;
+  }
+  /* Resume Left Part Content Styles */
+
+  /* Left - Profile Section */
+
+  .resumeContent{
+    width: 100%;
+    height: 288em !important;
+  }
+  .leftPart{
+    position: absolute;
+    border-radius: 0 !important;
+    top: 12em !important;
+    width: 21em !important;
+    height: 115em !important;
+    background-color: #4b4b4b;
+    background-repeat: no-repeat;
+    border-radius: 0 0 0 20px;
+
+  }
+  .leftTitle{
+    font-size: 1.4em;
+    padding-left: 0 !important;
+    margin-top: 50px;
+    /* display: block; */
+    color: white;
+    text-align: center !important;
+
+
+  }
+  .hrLeft{
+    border: 0;
+    width: 17em !important;
+    height: 2px;
+    background-color: white;
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0)); */
+    /* border-style: solid; */
+    /* border-width: 5px; */
+    margin-right: 10% !important;
+
+  }
+  .profilecontent{
+    font-size: .85em !important;
+    line-height: 2.8em !important;
+    width: 20em !important;
+    margin-left: 2.4em !important;
+    margin-top: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  /* Left - Skills Section */
+
+  .skillsLayout{
+    /* border-style: solid; */
+    border-color: white;
+    padding: 10px 0px 10px 0;
+    margin-bottom: 60px;
+  }
+  .computerSkill{
+    font-size: 1.2em !important;
+  }
+  .skillLevel{
+    /* border-style: solid; */
+    color: white;
+    text-align: left !important;
+    padding-left: 9% !important;
+    font-size: 1.1em !important;
+    font-weight: 600;
+    letter-spacing: .3em;
+  }
+  .skillsets{
+    /* border-style: solid; */
+    margin-left: 10% !important;
+    font-size: .75em !important;
+    font-weight: 400;
+
+  }
+  .skillBullets{
+    /* border-style: solid; */
+    line-height: 2.5em !important;
+    text-align: left !important;
+    margin-left: 10% !important;
+    font-size: .65em !important;
+  }
+
+  /* Resume Right Part Content Styles */
+
+  .rightPart{
+    position: absolute;
+    top: 127em !important;
+    left: 0 !important;
+    width: 21em !important;
+    height: 173em !important;
+    border-radius: 0 0 20px 20px !important;
+
+  }
+  .rightTitle{
+    /* font-size: 30px; */
+    font-size: 1.4em;
+    letter-spacing: 5px;
+    /* border-style: solid; */
+    margin-top: 50px;
+    /* display: block; */
+    color: #424242;
+    text-align: center !important;
+    padding-left: 0 !important;
+  }
+  .rightTitleSub{
+    display: block;
+    /* border-style: solid; */
+    color: #424242;
+    text-align: center !important;
+    letter-spacing: 3px;
+    font-size: 1em !important;
+  }
+  .hrRight{
+    /* border: 0; */
+    width: 19em !important;
+    height: 2px;
+    /* background-color: #333333; */
+    margin-right: 5% !important;
+    background-color: #555555;
+    border-style: none;
+   }
+
+  /* Project Section Styles */
+
+  .projectName{
+    /* border-style: solid; */
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 1em !important;
+    padding-left: 0 !important;
+    margin-left: -1em !important;
+  }
+  .projectBullets{
+    list-style-position: inside;
+    padding-left: 0!important;
+    margin-left: -2em !important;
+    text-align: left;
+    /* border-style: solid; */
+    font-weight: 500;
+    font-size: .7em !important;
+    line-height: 30px;
+  }
+  .projectTime1{
+    /* border-style: solid; */
+    font-size: .2em !important;
+    margin-left: 6em !important;
+  }
+  .projectTime2{
+    /* border-style: solid; */
+    font-size: .2em !important;
+    margin-left: 12em !important;
+  }
+  .projectTime3{
+    /* border-style: solid; */
+    font-size: .2em !important;
+    margin-left: 24em !important;
+  }
+
+  /* Experience Section Styles */
+  .jobName{
+    /* border-style: solid; */
+    font-size: 1em !important;
+    width: 110%;
+    text-align: left;
+    padding-left: 0 !important;
+    margin-left: -2em !important;
+  }
+  .jobBullets{
+    list-style-position: inside;
+    margin-left: -4.5em !important;
+    text-align: left;
+    /* border-style: solid; */
+    font-weight: 500;
+    font-size: .7em !important;
+    line-height: 30px;
+  }
+  .jobTime1{
+    /* border-style: solid; */
+    font-size: .2em !important;
+    margin-left: 12em !important;
+  }
+  .jobtitle{
+    font-size: .5em !important;
+    /* border-style: solid; */
+    width: 100%;
+    text-align: left;
+    margin: 0 0 2em -2em !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .jobLocation1{
+    /* border-style: solid; */
+    font-size: .3em !important;
+    margin-left: 3.5em !important;
+  }
+  .jobTime2{
+    /* border-style: solid; */
+    font-size: .2em !important;
+    margin-left: 2em !important;
+  }
+  .jobLocation2{
+    /* border-style: solid; */
+    font-size: .3em !important;
+    margin-left: 5em !important;
+  }
+
+  /* Education Section Styles */
+
+  .schoolName{
+    /* border-style: solid; */
+    font-size: 1em !important;
+    text-align: left;
+    padding-left: 10px;
+    margin-left: -1em !important;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 100%;
+  }
+  .schooltitle{
+    font-size: .6em !important;
+    /* font-style: italic; */
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* border-style: solid; */
+    text-align: left;
+    margin-left: -2em !important;
+    padding-left: 0 !important;
+    color: #424242;
+  }
+  .schoolBullets{
+    list-style-position: inside;
+    padding-left: 1em !important;
+    margin-left: -3em !important;
+    text-align: left;
+    /* border-style: solid; */
+    font-weight: 500;
+    font-size: .7em !important;
+    line-height: 30px;
+  }
+  .schoolTime1{
+    /* border-style: solid; */
+    font-size: .2em !important;
+    margin-left: 0em !important;
+    display: block;
+    padding-top:1.2em !important;
+    padding-bottom:1.2em !important;
+  }
+  .schoolLocation1{
+    font-size: .3em !important;
+    margin-left: 1em !important;
+    margin-top: 2em !important;
+    display: block;
+    /* border-style: solid; */
+  }
+
+  .schoolTime2{
+    /* border-style: solid; */
+    font-size: .2em !important;
+    margin-left: 0em !important;
+    display: block;
+    padding-top:1.2em !important;
+    padding-bottom:1.2em !important;
+
+  }
+  .schoolLocation2{
+    font-size: .3em !important;
+    margin-left: 1em !important;
+    margin-top: 2em !important;
+    display: block;
+    /* border-style: solid; */
+  }
+
+  .schoolTime3{
+    /* border-style: solid; */
+    font-size: .2em !important;
+    margin-left: 0em !important;
+    display: block;
+    padding-top:1.2em !important;
+    padding-bottom:1.2em !important;
+  }
+  .schoolLocation3{
+    font-size: .3em !important;
+    margin-left: 1em !important;
+    margin-top: 2em !important;
+    display: block;
+    /* border-style: solid; */
+  }
+
+  .footer{
+    top: 330em !important;
+  }
+  .logoPic.linkedin{
+    width: 45px;
+    height: 44px;
+  }
+  .logoPic.github{
+    margin-left:0px !important;
+    margin-right:0px !important;
+    width: 53px;
+    height: 52px;
+  }
+  .logoPic.email{
+    background: url('../img/email-logo.png') center;
+    width: 54px;
+    height: 44px;
+  }
+
+  .copyrights{
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    color: rgba(255,255,255,70%);
+    width: 100%;
+    font-size: .5em !important;
+  }
+}
+
+@media screen and (max-width:900px) and (orientation: Landscape){
+  /* Resume Contents Styling */
+  #resumeSection{
+    width: 39em !important;
+    height: 230em !important;
+    /* border-style: solid; */
+
+    left: 50%;
+    top:50%;
+    top: 20em !important;
+    left: 26.7em !important;
+  }
+
+  .headerImage{
+    width: 100%;
+    height: 15em !important;
+    background: url("../img/sky.jpg") 50% 28%;
+  }
+  .resumeHeader{
+    padding: .6em 1.8em .8em 1.8em !important;
+    margin: 2em 0 0 0 !important;
+    font-size: 2.5em !important;
+  }
+  .subHeader{
+    top:8.5em !important;
+    left: 7.8em !important;
+    /* border-style: solid;*/
+    font-size: 1.2em !important;
+  }
+  /* Resume Left Part Content Styles */
+
+  /* Left - Profile Section */
+
+  .resumeContent{
+    width: 100%;
+    height: 215em !important;
+  }
+  .leftPart{
+
+    top:15em !important;
+    width: 100% !important;
+    height: 105em !important;
+    border-radius: 0 0 0 0 !important;
+
+  }
+  .leftTitle{
+    /* border-style: solid; */
+    padding-left: 0 !important;
+    text-align: center !important;
+    font-size: 1.6em !important;
+
+  }
+  .hrLeft{
+    border: 0;
+    width: 35em !important;
+    height: 2px;
+    background-color: white;
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0)); */
+    /* border-style: solid; */
+    /* border-width: 5px; */
+    margin-right: 5% !important;
+
+  }
+  .profilecontent{
+    color: white;
+    /* font-family: 'Calibri',sans-serif; */
+    font-size: 1em !important;
+    line-height: 35px;
+    width: 80% !important;
+    text-align: justify;
+    letter-spacing: 1px;
+    /* border-style: solid; */
+    margin-left: 3.5% !important;
+    padding: 1em 2em 0 2em !important;
+    display: block !important;
+  }
+
+  /* Left - Skills Section */
+
+  .skillsLayout{
+    /* border-style: solid; */
+    border-color: white;
+    padding: 10px 0px 10px 0;
+    margin-bottom: 60px;
+  }
+  .computerSkill{
+    border-style: solid;
+    font-size: 1.4em !important;
+    margin-top: 0%;
+    padding:2% 0% 2% 0%;
+    letter-spacing: .3em;
+  }
+  .skillLevel{
+    /* border-style: solid; */
+    color: white;
+    text-align: left;
+    padding-left: 10% !important;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: .3em;
+  }
+
+  .skillsets{
+    /* border-style: solid; */
+    margin-left: 10% !important;
+    margin-top: 0;
+    width: 80%;
+    list-style-position: inside;
+    list-style-type: circle;
+    color: #fdfefa;
+    text-align: left;
+    line-height: 1.7em;
+    letter-spacing: .2em;
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .skillBullets{
+    /* border-style: solid; */
+    line-height: 2.5em !important;
+    text-align: left !important;
+    margin-left: 10% !important;
+    font-size: .65em !important;
+  }
+
+  /* Left - Contact Section */
+  .contactLayout{
+    /* border-style: solid; */
+    color: white;
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: 'Calibri',serif,sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+  }
+
+  .phone{
+    /* border-style: solid; */
+    margin-left: 0px;
+    /* text-align: left; */
+  }
+  .email{
+    /* border-style: solid; */
+    margin-left: 0px;
+    /* text-align: left; */
+  }
+  .linkedin{
+    /* border-style: solid; */
+    margin-left: 0px;
+    color: white;
+    /* text-align: left; */
+  }
+  .linkedin:hover{
+    color: grey;
+  }
+
+  /* Resume Right Part Content Styles */
+
+  .rightPart{
+    position: absolute;
+    top:120em !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 110em !important;
+    background-color: lightgrey;
+    /* border-style: solid; */
+    border-radius: 0 0 20px 20px !important;
+
+  }
+  .rightTitle{
+    /* border-style: solid; */
+    padding-left: 0 !important;
+    text-align: center !important;
+    font-size: 1.6em !important;
+  }
+  .rightTitleSub{
+    color: #424242;
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: .9em !important;
+  }
+  .hrRight{
+    width: 35em !important;
+    margin-right: 5% !important;
+   }
+
+  /* Project Section Styles */
+
+  .projectName{
+    /* border-style: solid; */
+    text-align: left;
+    padding-left: 20px;
+    margin-left: -1% !important;
+    margin-bottom: 10px;
+    font-size: 1em !important;
+    letter-spacing: 2px;
+    color: #424242;
+  }
+  .projectBullets{
+    list-style-position: inside;
+    padding-left: 2em !important;
+    margin-left: -4.5% !important;
+    text-align: left;
+    /* border-style: solid; */
+    font-weight: 500;
+    font-size: .7em !important;
+    line-height: 30px;
+  }
+  .projectTime1{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 23em !important;
+  }
+  .projectTime2{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 6em !important;
+  }
+  .projectTime3{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 14em !important;
+  }
+
+  /* Experience Section Styles */
+  .jobName{
+    /* border-style: solid; */
+    text-align: left;
+    padding-left: 20px;
+    margin-left: -1% !important;
+    margin-bottom: 10px;
+    font-size: 1em !important;
+    letter-spacing: 2px;
+    color: #424242;
+  }
+  .jobBullets{
+    list-style-position: inside;
+    padding-left: 2em !important;
+    margin-left: -4.5% !important;
+    text-align: left;
+    /* border-style: solid; */
+    font-weight: 500;
+    font-size: .7em !important;
+    line-height: 30px;
+  }
+  .jobTime1{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 37em !important;
+  }
+  .jobtitle{
+    font-size: .9em !important;
+    margin: 0 0 15px 0;
+    padding-left: 1em !important;
+  }
+  .jobLocation1{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 26.5em !important;
+  }
+
+  .jobTime2{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 27em !important;
+  }
+  .jobLocation2{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 26em !important;
+  }
+
+  /* Education Section Styles */
+
+  .schoolName{
+    /* border-style: solid; */
+    font-size: 1em !important;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    color: #424242;
+  }
+  .schooltitle{
+    font-size: .8em !important;
+    /* font-style: italic; */
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* border-style: solid; */
+    text-align: left;
+
+    margin: 0 0 15px 0;
+    padding-left: 10px;
+    color: #424242;
+  }
+  .schoolBullets{
+    list-style-position: inside;
+    padding-left: 20px;
+    text-align: left;
+    /* border-style: solid; */
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 30px;
+    padding-left: 2em !important;
+    margin-left: -6% !important;
+    font-size: .7em !important;
+  }
+  .schoolTime1{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 10em !important;
+  }
+  .schoolLocation1{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 12.5em !important;
+  }
+
+  .schoolTime2{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 7em !important;
+  }
+  .schoolLocation2{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 10.5em !important;
+  }
+
+  .schoolTime3{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 12em !important;
+  }
+  .schoolLocation3{
+    /* border-style: solid; */
+    font-size: .5em !important;
+    margin-left: 6em !important;
+  }
+
+  /* Footer Styles */
+  .footer{
+    top: 250em !important;
   }
 }
 
@@ -1854,14 +1833,14 @@ span.name:hover{
 .profilecontent{
   color: white;
   /* font-family: 'Calibri',sans-serif; */
-  font-size: 17px;
+  font-size: .9em;
   line-height: 35px;
   width: 360px;
   text-align: justify;
   letter-spacing: 1px;
   /* border-style: solid; */
-  padding-left: 40px;
-  padding-top: 18px;
+  margin-left: 11%;
+  padding-top: .8em;
   margin-bottom: 60px;
 }
 
@@ -1880,9 +1859,9 @@ span.name:hover{
   width: 70%;
   color: white;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-top: 0%;
-  padding:3% 0% 3% 0%;
+  padding:3% 3% 3% 3%;
   letter-spacing: .3em;
 }
 .skillLevel{
@@ -1894,7 +1873,6 @@ span.name:hover{
   font-weight: 600;
   letter-spacing: .3em;
 }
-
 .skillsets{
   /* border-style: solid; */
   margin-left: 12%;
@@ -1910,11 +1888,25 @@ span.name:hover{
   font-weight: 400;
 
 }
+.skillBullets{
+  /* border-style: solid; */
+  width: 75%;
+  margin-top: 3%;
+  margin-left: 16.5%;
+  display: block;
+  text-align: justify;
+  line-height: 2em;
+  letter-spacing: .2em;
+  font-size: .8em;
+  font-weight: 400;
+  color: white;
 
+}
 
 /* Left - Contact Section */
 .contactLayout{
   /* border-style: solid; */
+  margin-left: 1.5%;
   color: white;
   list-style-type: circle;
   list-style-position: inside;
