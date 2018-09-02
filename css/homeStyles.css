@@ -17,10 +17,14 @@ body{
     margin-top: 15% !important;
   }
   #navbar{
-    height: 6.5% !important;
+    height: 6.8% !important;
   }
   .name{
     margin-top: .65% !important;
+  }
+  .start{
+    padding-top: .7em !important;
+    border-radius: 40px !important;
   }
 }
 
@@ -474,7 +478,7 @@ body{
     font-weight: 800;
     font-size: 3em !important;
     /* color: rgba(255,255,255,100%); */
-    color: orange;
+    color: black;
     text-shadow: 1px 2px 2px #000000;
     text-align: center;
     /* padding-right: 30px; */
