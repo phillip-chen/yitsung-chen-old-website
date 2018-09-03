@@ -237,8 +237,8 @@ main.projectSection{
   text-align: center;
   font-weight: 700;
   color: #1B3544;
-  /* background-color: #f0f4fb; */
-  background: linear-gradient(to bottom right,#fcfaff,#dcdcdc,#c2c2c2);
+  background-color: #4b4b4b;
+  /* background: linear-gradient(to bottom right,#fcfaff,#dcdcdc,#c2c2c2); */
   box-shadow: 3px 3px 3px #9b8c91;
 }
 div.projectWrapper{
@@ -255,10 +255,10 @@ div.projectWrapper{
 /* introduction Contents */
 .IntroContents{
   width: 800px;
-  font-size: 23px;
+  font-size: 24px;
   font-weight:500;
   /* font-style: italic; */
-
+  color: white;
   display: inline-block;
   /* position:absolute; */
   /* top: 175px; */
@@ -269,7 +269,7 @@ div.projectWrapper{
   text-align: justify;
 
 
-  line-height: 35px;
+  line-height: 55px;
 }
 a.email{
   color: darkgrey;
@@ -282,459 +282,238 @@ a.email:hover{
 
 /* AnalysisTitle Styles (All prolects' titles)*/
 .AnalysisTitle{
-  color: #222222;
-  font-size: 16px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 4px;
   line-height: 30px;
   font-family: 'Gill Sans','Gill Sans Light',sans-serif;
-
+  /* border-style: solid; */
+  margin-top: 1.5em;
 }
 
 /* Bike shared Analysis Styles */
-
 .bikeAnalysisWrapper{
   /* border-style: solid; */
   text-align: center;
-  width: 280px;
-  height: 490px;
+  width: 62em;
+  height: 250px;
   border-radius: 15px;
   position: absolute;
-  left: 40px;
-  background-color: #c1c7dd;
-  box-shadow: 0px 0px 15px #9b8c91;
-
+  top: 1.5em;
+  left: 1.5em;
+  border-style: solid;
+  border-width: 3.5px;
+  border-color: white;
 }
 .bikeAnalysis{
   background: url("../img/bikeAnalysis.png");
   background-repeat: no-repeat;
-  margin-top: 40px;
+  margin-top: -2.8em;
   margin-left: 40px;
-  box-shadow: 4px 4px 8px grey;
 
 
   background-size: contain;
   border-radius: 50%;
-  opacity: 0.75;
-  width: 200px;
-  height: 200px;
+  opacity: 0.7;
+  width: 180px;
+  height: 180px;
 
 
 }
-
 .bikeAnalysisWrapper:hover{
-  box-shadow: 0px 0px 5px #9b8c91;
+  border-color: orange;
 }
 .bikeAnalysisWrapper:hover .bikeAnalysis{
   opacity: 1;
-  box-shadow: 2px 2px 4px grey;
-
-}
-.bikeAnalysisWrapper:hover .bikeAnalysisIntro{
-  display: inline-block;
 }
 .bikeAnalysisIntro{
-  display: none;
-  width: 220px;
+  width: 35em;
   /* border-style: solid; */
   text-align: left;
-  color: #333333;
-
+  color: #ececec;
+  letter-spacing: 2px;
   position: absolute;
-  top: 290px;
-  left: 30px;
-  line-height: 25px;
-
-  text-align:justify;
+  top: 4em;
+  left: 19em;
+  line-height: 35px;
 
   font-family: 'Arial','Thorndale AMT', sans-serif;
   font-style:normal;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 550;
   z-index: 1;
 }
 
 /* Hr Anaytics Styles */
+.AnalysisTitle.ml{
+  /* border-style: solid; */
+  text-align: left;
+  padding-left: 15em;
+}
 .hrAnalysisWrapper{
   /* border-style: solid; */
   text-align: center;
-  width: 280px;
-  height: 490px;
+  width: 62em;
+  height: 250px;
   border-radius: 15px;
   position: absolute;
-  top: 0px;
-  left: 380px;
-  background-color: #e3e9eb;
-  box-shadow: 0px 0px 15px #9b8c91;
-
+  top: 20em;
+  left: 1.5em;
+  border-style: solid;
+  border-width: 3.5px;
+  border-color: white;
 }
 .hrAnalysis{
   background: url("../img/hr.png");
-  margin-top: 0px;
+  background-repeat: no-repeat;
+  margin-top: -2.8em;
   margin-left: 40px;
 
 
   background-size: contain;
   border-radius: 50%;
-  opacity: 0.75;
-  width: 200px;
-  height: 200px;
-  box-shadow: 4px 4px 8px grey;
-  border-color: blue;
+  opacity: 0.7;
+  width: 180px;
+  height: 180px;
 
 
 }
 .hrAnalysisWrapper:hover{
-  box-shadow: 0px 0px 5px #9b8c91;
+  border-color: orange;
 }
 .hrAnalysisWrapper:hover .hrAnalysis{
   opacity: 1;
-  box-shadow: 2px 2px 4px grey;
-
-}
-.hrAnalysisWrapper:hover .hrAnalysisIntro{
-  display: inline-block;
 }
 .hrAnalysisIntro{
-  display: none;
-  width: 200px;
+  width: 35em;
   /* border-style: solid; */
   text-align: left;
-  color: #333333;
-
+  color: #ececec;
+  letter-spacing: 2px;
   position: absolute;
-  top: 305px;
-  left: 40px;
+  top: 4em;
+  left: 19em;
+  line-height: 35px;
 
-  text-align:justify;
-  line-height: 30px;
   font-family: 'Arial','Thorndale AMT', sans-serif;
   font-style:normal;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 550;
   z-index: 1;
 }
+
 
 /* UX Analytics Styles */
 .UXAnalysisWrapper{
   /* border-style: solid; */
   text-align: center;
-  width: 280px;
-  height: 490px;
+  width: 62em;
+  height: 250px;
   border-radius: 15px;
   position: absolute;
-  top: 525px;
-  left: 720px;
-
-  background-color: #e3e9eb;
-  box-shadow: 0px 0px 15px #9b8c91;
-
+  top: 38.5em;
+  left: 1.5em;
+  border-style: solid;
+  border-width: 3.5px;
+  border-color: white;
 }
 .UXAnalysis{
   background: url("../img/qiamo.png");
-
-  margin-top: 40px;
+  background-repeat: no-repeat;
+  margin-top: -2.8em;
   margin-left: 40px;
+
 
   background-size: contain;
   border-radius: 50%;
-  opacity: 0.5;
-  width: 200px;
-  height: 200px;
-  box-shadow: 4px 4px 8px grey;
+  opacity: 0.7;
+  width: 180px;
+  height: 180px;
 
-
-
-
-}
-.UXAnalysisIntro{
-  position:absolute;
-  width: 250px;
-  text-align: justify;
-  line-height: 30px;
-
-  font-size: 15px;
-  font-weight: 400;
-  font-style: italic;
-
-  top: 50%;
-  left: 50%;
-  top: 780px;
-  left: 1040px;
-
-  display: none;
 
 }
 .UXAnalysisWrapper:hover{
-  box-shadow: 0px 0px 5px #9b8c91;
+  border-color: orange;
 }
 .UXAnalysisWrapper:hover .UXAnalysis{
   opacity: 1;
-  box-shadow: 2px 2px 4px grey;
-
-}
-.UXAnalysisWrapper:hover .UXAnalysisIntro{
-  display: inline-block;
 }
 .UXAnalysisIntro{
-  display: none;
-  width: 200px;
+  width: 35em;
   /* border-style: solid; */
   text-align: left;
-  color: #333333;
-
+  color: #ececec;
+  letter-spacing: 2px;
   position: absolute;
-  top: 300px;
-  left: 40px;
-  text-align:justify;
+  top: 4em;
+  left: 18.5em;
+  line-height: 35px;
 
   font-family: 'Arial','Thorndale AMT', sans-serif;
   font-style:normal;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 550;
   z-index: 1;
 }
+
+
 
 /* Styles Mochups for the 3rd, 4th , 5th projrcts demo */
 /*****************************
 *********3rd Projects*********
 ******************************/
+.AnalysisTitle.mlb{
+  text-align: left;
+  padding-left: 15em;
+}
 .third_AnalysisWrapper{
   /* border-style: solid; */
   text-align: center;
-  width: 280px;
-  height: 490px;
+  width: 62em;
+  height: 250px;
   border-radius: 15px;
   position: absolute;
-
-  left: 720px;
-  background-color: #c1c7dd;
-  box-shadow: 0px 0px 15px #9b8c91;
-
+  top: 57em;
+  left: 1.5em;
+  border-style: solid;
+  border-width: 3.5px;
+  border-color: white;
 }
 .third_Analysis{
-  background: url("../img/bikeAnalysis.png");
+  background: url("../img/mlb.png") 50% 50%;
   background-repeat: no-repeat;
-  margin-top: 40px;
+  margin-top: -2.8em;
   margin-left: 40px;
-  box-shadow: 4px 4px 8px grey;
 
 
   background-size: contain;
   border-radius: 50%;
-  opacity: 0.75;
-  width: 200px;
-  height: 200px;
+  opacity: 0.7;
+  width: 180px;
+  height: 180px;
 
-
-}
-.third_AnalysisIntro{
-  position:absolute;
-  width: 250px;
-  text-align: justify;
-  line-height: 30px;
-
-  font-size: 15px;
-  font-weight: 400;
-  font-style: italic;
-
-  top: 50%;
-  left: 50%;
-  top: 780px;
-  left: 280px;
-
-  display: none;
 
 }
 .third_AnalysisWrapper:hover{
-  box-shadow: 0px 0px 5px #9b8c91;
+  border-color: orange;
 }
 .third_AnalysisWrapper:hover .third_Analysis{
   opacity: 1;
-  box-shadow: 2px 2px 4px grey;
-
-}
-.third_AnalysisWrapper:hover .third_AnalysisIntro{
-  display: inline-block;
 }
 .third_AnalysisIntro{
-  display: none;
-  width: 200px;
+  width: 35em;
   /* border-style: solid; */
   text-align: left;
-  color: #333333;
-
+  color: #ececec;
+  letter-spacing: 2px;
   position: absolute;
-  top: 305px;
-  left: 40px;
-
-  text-align:justify;
+  top: 4em;
+  left: 19em;
+  line-height: 35px;
 
   font-family: 'Arial','Thorndale AMT', sans-serif;
   font-style:normal;
-  font-size: 13px;
-  font-weight: 550;
-  z-index: 1;
-}
-
-/*****************************
-*********4th Projects*********
-******************************/
-
-.fourth_AnalysisWrapper{
-  /* border-style: solid; */
-  text-align: center;
-  width: 280px;
-  height: 490px;
-  border-radius: 15px;
-  position: absolute;
-  top: 525px;
-  left: 40px;
-  background-color: #e3e9eb;
-  box-shadow: 0px 0px 15px #9b8c91;
-
-}
-.fourth_Analysis{
-  background: url("../img/bikeAnalysis.png");
-  background-repeat: no-repeat;
-  margin-top: 40px;
-  margin-left: 40px;
-  box-shadow: 4px 4px 8px grey;
-
-
-  background-size: contain;
-  border-radius: 50%;
-  opacity: 0.75;
-  width: 200px;
-  height: 200px;
-
-
-}
-.fourth_AnalysisIntro{
-  position:absolute;
-  width: 250px;
-  text-align: justify;
-  line-height: 30px;
-
-  font-size: 15px;
-  font-weight: 400;
-  font-style: italic;
-
-  top: 50%;
-  left: 50%;
-  top: 780px;
-  left: 280px;
-
-  display: none;
-
-}
-.fourth_AnalysisWrapper:hover{
-  box-shadow: 0px 0px 5px #9b8c91;
-}
-.fourth_AnalysisWrapper:hover .fourth_Analysis{
-  opacity: 1;
-  box-shadow: 2px 2px 4px grey;
-
-}
-.fourth_AnalysisWrapper:hover .fourth_AnalysisIntro{
-  display: inline-block;
-}
-.fourth_AnalysisIntro{
-  display: none;
-  width: 200px;
-  /* border-style: solid; */
-  text-align: left;
-  color: #333333;
-
-  position: absolute;
-  top: 305px;
-  left: 40px;
-
-  text-align:justify;
-
-  font-family: 'Arial','Thorndale AMT', sans-serif;
-  font-style:normal;
-  font-size: 13px;
-  font-weight: 550;
-  z-index: 1;
-}
-
-/*****************************
-*********5th Projects*********
-******************************/
-
-.fifth_AnalysisWrapper{
-  /* border-style: solid; */
-  text-align: center;
-  width: 280px;
-  height: 490px;
-  border-radius: 15px;
-  position: absolute;
-  top: 525px;
-  left: 380px;
-  background-color: #c1c7dd;
-  box-shadow: 0px 0px 15px #9b8c91;
-
-}
-.fifth_Analysis{
-  background: url("../img/hr.png");
-  margin-top: 0px;
-  margin-left: 40px;
-
-
-  background-size: contain;
-  border-radius: 50%;
-  opacity: 0.75;
-  width: 200px;
-  height: 200px;
-  box-shadow: 4px 4px 8px grey;
-  border-color: blue;
-
-
-}
-.fifth_AnalysisIntro{
-  position:absolute;
-  width: 250px;
-  text-align: justify;
-  line-height: 30px;
-
-  font-size: 15px;
-  font-weight: 400;
-  font-style: italic;
-
-  top: 50%;
-  left: 50%;
-  top: 780px;
-  left: 680px;
-
-  display: none;
-
-}
-.fifth_AnalysisWrapper:hover{
-  box-shadow: 0px 0px 5px #9b8c91;
-}
-.fifth_AnalysisWrapper:hover .fifth_Analysis{
-  opacity: 1;
-  box-shadow: 2px 2px 4px grey;
-
-}
-.fifth_AnalysisWrapper:hover .fifth_AnalysisIntro{
-  display: inline-block;
-}
-.fifth_AnalysisIntro{
-  display: none;
-  width: 200px;
-  /* border-style: solid; */
-  text-align: left;
-  color: #333333;
-
-  position: absolute;
-  top: 305px;
-  left: 40px;
-
-  text-align:justify;
-
-  font-family: 'Arial','Thorndale AMT', sans-serif;
-  font-style:normal;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 550;
   z-index: 1;
 }
