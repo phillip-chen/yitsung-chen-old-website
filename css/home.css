@@ -1,0 +1,477 @@
+html{
+  height: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#section-home{
+  height: 110vh;
+  width: 100%;
+  background-image: url('../BG4.jpg');
+  opacity: .9;
+  background-size: cover;
+  background-position: 50% 5%;
+  /* display: table; */
+  background-attachment: fixed;
+}
+
+#section-about{
+  height: 130vh;
+  width: 100%;
+  background-image: url('../sky.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  display: table;
+  background-attachment: fixed;
+
+}
+
+#section-project{
+  height: 150vh;
+  width: 100%;
+  background-image: url('../BG3.jpg');
+  background-size: cover;
+  background-position: 50% 30%;
+  display: table;
+  background-attachment: fixed;
+
+}
+
+#section-resume{
+  height: 100vh;
+  width: 100%;
+  background-color: #141621;
+  background-size: cover;
+  background-position: 50% 20%;
+  display: table;
+  background-attachment: fixed;
+
+}
+
+#section-contact{
+  height: 110vh;
+  width: 100%;
+  background-image: url('../BG2.png');
+  background-size: cover;
+  background-position: 50% 30%;
+  display: table;
+  background-attachment: fixed;
+
+}
+
+/* =================== HOME Section ======================*/
+
+.jumbotron.home{
+  position: relative;
+  top: 28%;
+  opacity: .9;
+  background-color: transparent;
+  /* border: white 2px solid; */
+
+}
+
+.jumbotron.home h1 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.3em;
+  color: #FF4500;
+  letter-spacing: 3px;
+  margin-top: 0;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.9),
+               0px 8px 13px rgba(0, 0, 0, 0.5),
+               0px 18px 23px rgba(0, 0, 0, 0.4);
+}
+
+.jumbotron.home p{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.7em;
+  color: orange;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.9),
+               0px 8px 13px rgba(0, 0, 0, 0.5),
+               0px 18px 23px rgba(0, 0, 0, 0.4);
+
+}
+
+.col-lg-12{
+  text-align: center;
+}
+
+.btn-info {
+  margin-top: 20px;
+  border: white 2px solid;
+  letter-spacing: .1rem;
+  padding-bottom: 11px;
+  border-radius: 7px;
+  font-size: 20px;
+}
+
+.homeLine{
+  max-width: 400px;
+  width: 80%;
+  border-top: 2px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+.navbar-dark .navbar-brand {
+  -webkit-transition: font-size, margin-right, letter-spacing .8s; /* For Safari 3.1 to 6.0 */
+  transition: font-size, margin-right, letter-spacing .8s;
+  font-size: 1.7em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-right: 110px;
+}
+
+.navbar-brand a {
+    color: black;
+    font-family: 'Gill Sans','Gill Sans Light',sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    -webkit-transition: font-size, margin-right, letter-spacing .8s; /* For Safari 3.1 to 6.0 */
+    transition: font-size, margin-right, letter-spacing .8s;
+    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.3em;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: #529eea;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-weight: normal;
+    font-family: 'Gill Sans','Gill Sans Light',sans-serif;
+    line-height: 25px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #2485e5;
+    color: white;
+}
+
+
+.navbar-brand a:hover {
+   color: #2e3c50;
+}
+
+/* ==================ABOUT ME Section=================== */
+
+.container.about{
+  height: 80%;
+  max-width: 1400px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 1%;
+}
+
+.row.about{
+  /* border: solid black 2px; */
+  margin-left: 3.5rem;
+  width: 90%;
+}
+
+.img-thumbnail{
+  margin-top: -4%;
+  margin-bottom: 2%;
+  max-width: 13em;
+  width: 50%;
+}
+
+.col-sm-12.img{
+  /* border: solid black 2px; */
+  text-align: center;
+  margin-left: 0px;
+  padding-top: 8em;
+  padding-bottom: .9em;
+}
+
+.col-sm-12.jumbotron.about {
+  display: block;
+  margin-top: 0;
+  text-align: justify;
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+.text-danger{
+  font-size: 1.8em;
+  letter-spacing: 1.5px;
+}
+
+.jumbotron.about p{
+  font-family: 'Gill Sans','Gill Sans Light',sans-serif;
+  color: #2e3c50;
+  font-size: 1.1rem;
+}
+
+/* ============== Projects =============== */
+.col-md-6.project{
+  padding-left: 5%;
+}
+
+.row.projects-1{
+  margin-top: 5.5rem;
+  margin-bottom: 2rem;
+}
+
+.col-sm-12.project{
+  text-align: center;
+  margin-top: 25px;
+}
+
+.card-img-top.img-thumbnail{
+  border: none;
+  background-color: #e3e9eb;
+
+}
+.card{
+  background-color: #e3e9eb;
+  border: 2px grey solid;
+  text-align: center;
+  margin-top: 20px;
+}
+.card-text{
+  text-align:left;
+}
+
+/* ==================Contact Section=================== */
+
+.container.contact{
+  margin-top: 7%;
+  background-color: #1B3544;
+  border-radius: 10px;
+}
+.contactTitle{
+  color: white;
+  padding: 25px;
+}
+.contactSub{
+  color: white;
+  padding-left: 25px;
+}
+form{
+  color: white;
+  /* border: 2px white solid; */
+  font-family: 'Calibri','Thorndale AMT', sans-serif;
+  margin-top: 0%;
+  padding: 25px;
+}
+
+label{
+  font-size: 1.2rem;
+  font-family: 'Gill Sans','Gill Sans Light',sans-serif;
+  letter-spacing: 1.5px;
+}
+.required{
+  color: #c1371b;
+}
+input{
+  background-color: #e3e9eb;
+}
+.contact.footnote{
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+.badge.badge-success{
+  font-size: 1rem;
+}
+
+.form-group.buttons{
+  margin-top: 35px;
+}
+
+.btn-lg.contact{
+  width: 120px;
+  letter-spacing: 2px;
+}
+
+.row.contact{
+  background-color: #2e3c50;
+  margin-top: 3%;
+}
+
+.col-lg-4.col-md-6.col-12.container.contact{
+  margin-top: 3%;
+  background-color: transparent;
+  /* border: 2px white solid; */
+  text-align: center;
+  padding: 20px;
+}
+.contactFooter{
+  color: white;
+}
+hr{
+  max-width: 80px;
+  border-color: white;
+  border-width: 3px;
+  margin: 5% auto 10% auto;
+}
+.fab.fa-linkedin{
+  color: white;
+  margin: auto 15%;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+.fas.fa-envelope{
+  color: white;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+.fab.fa-github{
+  color: white;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+.fab.fa-linkedin:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.fab.fa-github:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.fas.fa-envelope:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* =============================================================== */
+
+/* RWD Design */
+
+@media (min-width: 992px) {
+  .bg-dark{
+    -webkit-transition: background-color .6s; /* For Safari 3.1 to 6.0 */
+    transition: background-color .6s;
+    background-color: transparent !important;
+  }
+
+  .bg-dark.black{
+    -webkit-transition: background-color .6s; /* For Safari 3.1 to 6.0 */
+    transition: background-color .6s;
+    background-color: #2e3c50 !important;
+  }
+  .bg-dark.black .navbar-brand a{
+    -webkit-transition: font-size, margin-right, letter-spacing .8s; /* For Safari 3.1 to 6.0 */
+    transition: font-size, margin-right, letter-spacing .8s;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin-right: 60px;
+  }
+
+  .bg-dark.black .navbar-brand a:hover{
+    color: #9db9e1;
+  }
+
+  .bg-dark.black .navbar-nav .nav-link {
+      -webkit-transition: font-size, letter-spacing .8s; /* For Safari 3.1 to 6.0 */
+      transition: font-size, letter-spacing .8s;
+      border-radius: 4px;
+      text-align: center;
+      font-size: 1.3em;
+      color: white;
+      padding-top: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}
+@media (max-width: 992px){
+  .navbar-brand a{
+    color: white;
+  }
+  .navbar-brand a:hover {
+    color: #c6cdd6;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+  }
+  .jumbotron.home h1{
+    font-size: 38px;
+    letter-spacing: normal;
+  }
+  .jumbotron.home p{
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+  .navbar-dark .navbar-brand {
+    font-size: 1.6em;
+    margin-right: 20px;
+  }
+  .btn-info{
+    font-size: 18px;
+  }
+  .homeLine{
+    max-width: 300px;
+    width: 80%;
+  }
+  .jumbotron.about p{
+    font-size: 1rem;
+  }
+  .container.contact{
+    margin-top: 25%;
+  }
+  .contactTitle{
+    font-size: 2.2rem;
+  }
+  label{
+    font-size: 1rem;
+  }
+  .btn-lg.contact{
+    width: 100px;
+    letter-spacing: 2px;
+  }
+  .row.contact{
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 436px){
+  .jumbotron.home h1{
+    font-size: 30px;
+    letter-spacing: normal;
+  }
+  .jumbotron.home p{
+    font-size: 16.5px;
+    letter-spacing: normal;
+  }
+  .btn-info{
+    font-size: 1em;
+  }
+  .navbar-dark .navbar-brand {
+    font-size: 1.4em;
+    margin-right: 20px;
+  }
+  .homeLine{
+    max-width: 200px;
+    width: 80%;
+  }
+  .jumbotron.about p{
+    font-size: .8rem;
+  }
+  .row.projects-1{
+    margin-left: 7%;
+  }
+  .fab.fa-linkedin{
+    margin: auto 10%;
+  }
+}
