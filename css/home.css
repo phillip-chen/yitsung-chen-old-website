@@ -295,17 +295,15 @@ input{
 .form-group.buttons{
   margin-top: 35px;
 }
-
 .btn-lg.contact{
   width: 120px;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
-
 .row.contact{
   background-color: #2e3c50;
   margin-top: 3%;
+  max-width: 104%;
 }
-
 .col-lg-4.col-md-6.col-12.container.contact{
   margin-top: 3%;
   background-color: transparent;
@@ -443,16 +441,22 @@ hr{
   .row.contact{
     margin-top: 20%;
   }
+  .btn-lg.contact{
+    font-size: 1.1rem;
+    width: 120px;
+  }
 }
 
 @media (max-width: 436px){
   .jumbotron.home h1{
     font-size: 30px;
     letter-spacing: normal;
+    text-shadow:none;
   }
   .jumbotron.home p{
     font-size: 16.5px;
     letter-spacing: normal;
+    text-shadow:none;
   }
   .btn-info{
     font-size: 1em;
@@ -466,12 +470,15 @@ hr{
     width: 80%;
   }
   .jumbotron.about p{
-    font-size: .8rem;
+    font-size: .85rem;
   }
   .row.projects-1{
     margin-left: 7%;
   }
   .fab.fa-linkedin{
     margin: auto 10%;
+  }
+  .contactFooter{
+    font-size: 2rem;
   }
 }
