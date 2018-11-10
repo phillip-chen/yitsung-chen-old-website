@@ -473,12 +473,18 @@ hr{
     font-size: .85rem;
   }
   .row.projects-1{
-    margin-left: 7%;
+    margin-left: 7.5%;
   }
   .fab.fa-linkedin{
     margin: auto 10%;
   }
   .contactFooter{
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 413px) {
+  .row.projects-1{
+    margin-left: 3%;
   }
 }
